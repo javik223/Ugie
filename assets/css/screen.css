@@ -685,9 +685,11 @@ header .social_slogan {
 .slider {
   width: 100%;
   float: left;
-  position: relative; }
+  position: relative;
+  max-height: 496px;
+  overflow: hidden; }
 
-/* line 420, ../sass/screen.scss */
+/* line 422, ../sass/screen.scss */
 .slide {
   position: relative;
   color: white;
@@ -695,20 +697,20 @@ header .social_slogan {
   font-style: italic;
   float: left;
   width: 100%; }
-  /* line 428, ../sass/screen.scss */
+  /* line 430, ../sass/screen.scss */
   .slide h2 {
     line-height: 90%; }
-    /* line 431, ../sass/screen.scss */
+    /* line 433, ../sass/screen.scss */
     .slide h2:first-child {
       margin-left: -10%; }
-    /* line 434, ../sass/screen.scss */
+    /* line 436, ../sass/screen.scss */
     .slide h2:last-child {
       margin-left: -30%; }
-  /* line 439, ../sass/screen.scss */
+  /* line 441, ../sass/screen.scss */
   .slide img {
     width: 100%;
     float: left; }
-  /* line 444, ../sass/screen.scss */
+  /* line 446, ../sass/screen.scss */
   .slide .slide_text {
     width: 20%;
     float: right;
@@ -716,26 +718,27 @@ header .social_slogan {
     bottom: 25%;
     right: 5%; }
 
-/* line 452, ../sass/screen.scss */
+/* line 454, ../sass/screen.scss */
 .slider_control {
   position: absolute;
   font-size: 2.5em;
   color: white;
   bottom: 1.25em;
-  right: 1.25em; }
-  /* line 459, ../sass/screen.scss */
+  right: 1.25em;
+  z-index: 1300; }
+  /* line 462, ../sass/screen.scss */
   .slider_control [class*="icon-"] {
     cursor: pointer; }
-    /* line 462, ../sass/screen.scss */
+    /* line 465, ../sass/screen.scss */
     .slider_control [class*="icon-"]:hover {
       color: #f7d111; }
 
-/* line 468, ../sass/screen.scss */
+/* line 471, ../sass/screen.scss */
 .row1 img, .row2 img, .row3 img, .row4 img {
   width: 100%;
   float: left; }
 
-/* line 473, ../sass/screen.scss */
+/* line 476, ../sass/screen.scss */
 .row1 {
   display: block;
   float: left;
@@ -746,38 +749,38 @@ header .social_slogan {
   /* line 33, ../../../../../../../Applications/CodeKit.app/Contents/Resources/engines/neat/grid/_span-columns.scss */
   .row1:last-child {
     margin-right: 0; }
-  /* line 478, ../sass/screen.scss */
+  /* line 481, ../sass/screen.scss */
   .row1 .row1_col1 {
     width: 50%;
     padding: 5% 10%;
     float: left;
     display: table-column; }
-    /* line 484, ../sass/screen.scss */
+    /* line 487, ../sass/screen.scss */
     .row1 .row1_col1 h2 {
       font-size: 3.125em;
       font-style: italic;
       color: #cbcbcb; }
-  /* line 491, ../sass/screen.scss */
+  /* line 494, ../sass/screen.scss */
   .row1 .row1_col2 {
     width: 50%;
     float: left;
     display: table-cell; }
-  /* line 496, ../sass/screen.scss */
+  /* line 499, ../sass/screen.scss */
   .row1 .row1_col2_row1 {
     width: 100%;
     float: left;
     display: table-cell;
     height: 290px;
     overflow: hidden; }
-  /* line 503, ../sass/screen.scss */
+  /* line 506, ../sass/screen.scss */
   .row1 .row1_col2_row1_col1 {
     display: table-column;
     width: 50%;
     float: left; }
-    /* line 508, ../sass/screen.scss */
+    /* line 511, ../sass/screen.scss */
     .row1 .row1_col2_row1_col1 img {
       wdith: 100%; }
-  /* line 512, ../sass/screen.scss */
+  /* line 515, ../sass/screen.scss */
   .row1 .row1_col2_row1_col2 {
     width: 50%;
     display: table-column;
@@ -787,14 +790,14 @@ header .social_slogan {
     vertical-align: center;
     text-align: center;
     padding: 5.9375em; }
-  /* line 522, ../sass/screen.scss */
+  /* line 525, ../sass/screen.scss */
   .row1 .row1_col2_row2 {
     width: 100%;
     float: left;
     display: table-cell;
     overflow: hidden; }
 
-/* line 529, ../sass/screen.scss */
+/* line 532, ../sass/screen.scss */
 .row2 {
   display: block;
   float: left;
@@ -805,7 +808,7 @@ header .social_slogan {
   /* line 33, ../../../../../../../Applications/CodeKit.app/Contents/Resources/engines/neat/grid/_span-columns.scss */
   .row2:last-child {
     margin-right: 0; }
-  /* line 534, ../sass/screen.scss */
+  /* line 537, ../sass/screen.scss */
   .row2 .row2_overlay {
     position: absolute;
     bottom: 0;
@@ -815,16 +818,16 @@ header .social_slogan {
     padding: 2% 5%;
     z-index: 10000; }
 
-/* line 545, ../sass/screen.scss */
+/* line 548, ../sass/screen.scss */
 .row3 .row3_col1 {
   width: 70%;
   float: left;
   position: relative; }
-/* line 551, ../sass/screen.scss */
+/* line 554, ../sass/screen.scss */
 .row3 .row3_col1_row2 {
   width: 100%;
   float: left; }
-/* line 555, ../sass/screen.scss */
+/* line 558, ../sass/screen.scss */
 .row3 .row3_col1_row2_col1, .row3 .row3_col1_row2_col3 {
   width: 30%;
   float: left;
@@ -832,34 +835,34 @@ header .social_slogan {
   color: white;
   padding: 2.5em;
   height: 15.625em; }
-/* line 563, ../sass/screen.scss */
+/* line 566, ../sass/screen.scss */
 .row3 .row3_col1_row2_col2 {
   width: 40%;
   float: left;
   overflow: hidden; }
-/* line 568, ../sass/screen.scss */
+/* line 571, ../sass/screen.scss */
 .row3 .row3_col1_row2_col1 {
   background-color: #6d7c13; }
-/* line 571, ../sass/screen.scss */
+/* line 574, ../sass/screen.scss */
 .row3 .row3_col1_row2_col3 {
   background-color: #e7c208;
   color: #7a511b; }
-/* line 575, ../sass/screen.scss */
+/* line 578, ../sass/screen.scss */
 .row3 .row3_col2 {
   width: 30%;
   float: left;
   margin-top: 15em; }
-/* line 580, ../sass/screen.scss */
+/* line 583, ../sass/screen.scss */
 .row3 a {
   text-decoration: none; }
-/* line 583, ../sass/screen.scss */
+/* line 586, ../sass/screen.scss */
 .row3 .social {
   width: 60%;
   float: left;
   position: absolute;
   bottom: 0%;
   left: 70%; }
-  /* line 590, ../sass/screen.scss */
+  /* line 593, ../sass/screen.scss */
   .row3 .social .twitter_box {
     background-color: #0089cf;
     color: white;
@@ -869,7 +872,7 @@ header .social_slogan {
     width: 50%;
     font-weight: 100;
     float: left; }
-  /* line 601, ../sass/screen.scss */
+  /* line 604, ../sass/screen.scss */
   .row3 .social .icon-twitter {
     width: 70px;
     height: 70px;
@@ -877,13 +880,13 @@ header .social_slogan {
     background-color: #0089cf;
     margin-right: 0.625em;
     margin-bottom: 0.625em; }
-    /* line 609, ../sass/screen.scss */
+    /* line 612, ../sass/screen.scss */
     .row3 .social .icon-twitter:before {
       font-size: 2.5em;
       padding: 0.3125em;
       display: block;
       color: white; }
-  /* line 617, ../sass/screen.scss */
+  /* line 620, ../sass/screen.scss */
   .row3 .social .icon-facebook {
     width: 70px;
     height: 70px;
@@ -891,13 +894,13 @@ header .social_slogan {
     background-color: white;
     margin-right: 1.875em;
     margin-bottom: 0.625em; }
-    /* line 625, ../sass/screen.scss */
+    /* line 628, ../sass/screen.scss */
     .row3 .social .icon-facebook:before {
       font-size: 2.5em;
       padding: 0.3125em;
       display: block;
       color: #0089cf; }
-  /* line 633, ../sass/screen.scss */
+  /* line 636, ../sass/screen.scss */
   .row3 .social .icon-thumbs-up {
     width: 180px;
     height: 70px;
@@ -906,24 +909,24 @@ header .social_slogan {
     font-size: 2.5em;
     color: #0089cf;
     padding: 0.3125em; }
-    /* line 642, ../sass/screen.scss */
+    /* line 645, ../sass/screen.scss */
     .row3 .social .icon-thumbs-up:before {
       padding: 0.3125em; }
-  /* line 646, ../sass/screen.scss */
+  /* line 649, ../sass/screen.scss */
   .row3 .social .icon-instagram {
     width: 70px;
     height: 70px;
     background-color: #0089cf;
     float: left;
     margin-top: 0.625em; }
-    /* line 653, ../sass/screen.scss */
+    /* line 656, ../sass/screen.scss */
     .row3 .social .icon-instagram:before {
       font-size: 2.5em;
       padding: 0.3125em;
       display: block;
       color: white; }
 
-/* line 662, ../sass/screen.scss */
+/* line 665, ../sass/screen.scss */
 .row4 {
   float: left;
   margin-top: 3.125em;
@@ -934,7 +937,7 @@ header .social_slogan {
   /* line 33, ../../../../../../../Applications/CodeKit.app/Contents/Resources/engines/neat/grid/_span-columns.scss */
   .row4:last-child {
     margin-right: 0; }
-  /* line 667, ../sass/screen.scss */
+  /* line 670, ../sass/screen.scss */
   .row4 .row4_col1 {
     display: block;
     float: left;
@@ -946,10 +949,10 @@ header .social_slogan {
     /* line 33, ../../../../../../../Applications/CodeKit.app/Contents/Resources/engines/neat/grid/_span-columns.scss */
     .row4 .row4_col1:last-child {
       margin-right: 0; }
-    /* line 673, ../sass/screen.scss */
+    /* line 676, ../sass/screen.scss */
     .row4 .row4_col1 h2, .row4 .row4_col1 h1 {
       line-height: 90%; }
-  /* line 678, ../sass/screen.scss */
+  /* line 681, ../sass/screen.scss */
   .row4 .row4_col2 {
     display: block;
     float: left;
@@ -962,12 +965,12 @@ header .social_slogan {
     /* line 33, ../../../../../../../Applications/CodeKit.app/Contents/Resources/engines/neat/grid/_span-columns.scss */
     .row4 .row4_col2:last-child {
       margin-right: 0; }
-    /* line 685, ../sass/screen.scss */
+    /* line 688, ../sass/screen.scss */
     .row4 .row4_col2 p {
       color: #ff002a;
       font-size: 1.5625em;
       font-style: italic; }
-    /* line 691, ../sass/screen.scss */
+    /* line 694, ../sass/screen.scss */
     .row4 .row4_col2 input {
       font-size: 1.25em;
       color: #7e7e7e;
@@ -977,24 +980,24 @@ header .social_slogan {
       float: left;
       font-weight: 100;
       width: 360px; }
-    /* line 701, ../sass/screen.scss */
+    /* line 704, ../sass/screen.scss */
     .row4 .row4_col2 input[type="submit"] {
       background-color: #0089cf;
       color: white;
       width: auto; }
 
-/* line 708, ../sass/screen.scss */
+/* line 711, ../sass/screen.scss */
 footer {
   width: 100%;
   color: #7e7e7e;
   margin-top: 2.5em; }
-  /* line 713, ../sass/screen.scss */
+  /* line 716, ../sass/screen.scss */
   footer .container {
     padding-top: 3.125em;
     padding-bottom: 3.125em; }
-  /* line 717, ../sass/screen.scss */
+  /* line 720, ../sass/screen.scss */
   footer img {
     padding-right: 1.25em; }
-  /* line 721, ../sass/screen.scss */
+  /* line 724, ../sass/screen.scss */
   footer #sponsors {
     margin-left: 17.02128%; }

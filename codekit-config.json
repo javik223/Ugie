@@ -22,7 +22,7 @@
       "inputAbbreviatedPath" : "\/assets\/sass\/bourbon\/bourbon\/helpers\/_radial-arg-parser.scss",
       "outputStyle" : 0,
       "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/assets\/sass\/bourbon\/bourbon\/css\/_radial-arg-parser.css",
+      "outputAbbreviatedPath" : "\/assets\/css\/_radial-arg-parser.css",
       "fileType" : 4,
       "debugStyle" : 0
     },
@@ -46,7 +46,7 @@
       "inputAbbreviatedPath" : "\/assets\/sass\/bourbon\/neat\/grid\/_pad.scss",
       "outputStyle" : 0,
       "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/assets\/sass\/bourbon\/neat\/css\/_pad.css",
+      "outputAbbreviatedPath" : "\/assets\/css\/_pad.css",
       "fileType" : 4,
       "debugStyle" : 0
     },
@@ -70,7 +70,7 @@
       "inputAbbreviatedPath" : "\/assets\/sass\/bourbon\/css3\/_user-select.scss",
       "outputStyle" : 0,
       "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/assets\/sass\/bourbon\/css\/_user-select.css",
+      "outputAbbreviatedPath" : "\/assets\/css\/_user-select.css",
       "fileType" : 4,
       "debugStyle" : 0
     },
@@ -125,19 +125,7 @@
       "inputAbbreviatedPath" : "\/assets\/sass\/bourbon\/neat\/grid\/_visual-grid.scss",
       "outputStyle" : 0,
       "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/assets\/sass\/bourbon\/neat\/css\/_visual-grid.css",
-      "fileType" : 4,
-      "debugStyle" : 0
-    },
-    "\/assets\/sass\/bourbon\/bourbon\/functions\/_linear-gradient.scss" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/assets\/sass\/bourbon\/bourbon\/functions\/_linear-gradient.scss",
-      "outputStyle" : 0,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/assets\/sass\/bourbon\/bourbon\/css\/_linear-gradient.css",
+      "outputAbbreviatedPath" : "\/assets\/css\/_visual-grid.css",
       "fileType" : 4,
       "debugStyle" : 0
     },
@@ -151,6 +139,18 @@
       "syntaxCheckerStyle" : 0,
       "outputAbbreviatedPath" : "\/assets\/js\/jquery.event.swipe-ck.js",
       "fileType" : 64
+    },
+    "\/assets\/sass\/bourbon\/bourbon\/functions\/_linear-gradient.scss" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/assets\/sass\/bourbon\/bourbon\/functions\/_linear-gradient.scss",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/assets\/css\/_linear-gradient.css",
+      "fileType" : 4,
+      "debugStyle" : 0
     },
     "\/assets\/sass\/_variables.scss" : {
       "ignoreWasSetByUser" : 0,
@@ -181,19 +181,7 @@
       "inputAbbreviatedPath" : "\/assets\/sass\/bourbon\/bourbon\/helpers\/_render-gradients.scss",
       "outputStyle" : 0,
       "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/assets\/sass\/bourbon\/bourbon\/css\/_render-gradients.css",
-      "fileType" : 4,
-      "debugStyle" : 0
-    },
-    "\/assets\/sass\/bourbon\/neat\/_neat.scss" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/assets\/sass\/bourbon\/neat\/_neat.scss",
-      "outputStyle" : 0,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/assets\/sass\/bourbon\/css\/_neat.css",
+      "outputAbbreviatedPath" : "\/assets\/css\/_render-gradients.css",
       "fileType" : 4,
       "debugStyle" : 0
     },
@@ -228,42 +216,19 @@
       "inputAbbreviatedPath" : "\/assets\/sass\/bourbon\/functions\/_tint-shade.scss",
       "outputStyle" : 0,
       "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/assets\/sass\/bourbon\/css\/_tint-shade.css",
+      "outputAbbreviatedPath" : "\/assets\/css\/_tint-shade.css",
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/assets\/sass\/bourbon\/bourbon\/addons\/_triangle.scss" : {
+    "\/assets\/sass\/bourbon\/neat\/_neat.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/assets\/sass\/bourbon\/bourbon\/addons\/_triangle.scss",
+      "inputAbbreviatedPath" : "\/assets\/sass\/bourbon\/neat\/_neat.scss",
       "outputStyle" : 0,
       "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/assets\/css\/_triangle.css",
-      "fileType" : 4,
-      "debugStyle" : 0
-    },
-    "\/assets\/js\/jquery.animatedscroll.min.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/assets\/js\/jquery.animatedscroll.min.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 0,
-      "outputAbbreviatedPath" : "\/assets\/js\/jquery.animatedscroll.min-ck.js",
-      "fileType" : 64
-    },
-    "\/assets\/sass\/bourbon\/_bourbon-deprecated-upcoming.scss" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/assets\/sass\/bourbon\/_bourbon-deprecated-upcoming.scss",
-      "outputStyle" : 0,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/assets\/sass\/css\/_bourbon-deprecated-upcoming.css",
+      "outputAbbreviatedPath" : "\/assets\/css\/_neat.css",
       "fileType" : 4,
       "debugStyle" : 0
     },
@@ -279,6 +244,17 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
+    "\/assets\/js\/jquery.animatedscroll.min.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/assets\/js\/jquery.animatedscroll.min.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 0,
+      "outputAbbreviatedPath" : "\/assets\/js\/jquery.animatedscroll.min-ck.js",
+      "fileType" : 64
+    },
     "\/assets\/img\/ugie-carnival-bg.jpg" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -290,6 +266,30 @@
       "initialSize" : 192537,
       "fileType" : 4096
     },
+    "\/assets\/sass\/bourbon\/_bourbon-deprecated-upcoming.scss" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/assets\/sass\/bourbon\/_bourbon-deprecated-upcoming.scss",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/assets\/css\/_bourbon-deprecated-upcoming.css",
+      "fileType" : 4,
+      "debugStyle" : 0
+    },
+    "\/assets\/sass\/bourbon\/bourbon\/addons\/_triangle.scss" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/assets\/sass\/bourbon\/bourbon\/addons\/_triangle.scss",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/assets\/css\/_triangle.css",
+      "fileType" : 4,
+      "debugStyle" : 0
+    },
     "\/assets\/sass\/bourbon\/css3\/_inline-block.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -298,7 +298,7 @@
       "inputAbbreviatedPath" : "\/assets\/sass\/bourbon\/css3\/_inline-block.scss",
       "outputStyle" : 0,
       "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/assets\/sass\/bourbon\/css\/_inline-block.css",
+      "outputAbbreviatedPath" : "\/assets\/css\/_inline-block.css",
       "fileType" : 4,
       "debugStyle" : 0
     },
@@ -310,7 +310,7 @@
       "inputAbbreviatedPath" : "\/assets\/sass\/bourbon\/neat\/settings\/_grid.scss",
       "outputStyle" : 0,
       "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/assets\/sass\/bourbon\/neat\/css\/_grid.css",
+      "outputAbbreviatedPath" : "\/assets\/css\/_grid.css",
       "fileType" : 4,
       "debugStyle" : 0
     },
@@ -342,18 +342,20 @@
       "inputAbbreviatedPath" : "\/assets\/sass\/bourbon\/bourbon\/css3\/_appearance.scss",
       "outputStyle" : 0,
       "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/assets\/sass\/bourbon\/bourbon\/css\/_appearance.css",
+      "outputAbbreviatedPath" : "\/assets\/css\/_appearance.css",
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/event-lineup.html" : {
+    "\/assets\/img\/ugie-masquerades-performing4.jpg" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/event-lineup.html",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
+      "inputAbbreviatedPath" : "\/assets\/img\/ugie-masquerades-performing4.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/assets\/img\/ugie-masquerades-performing4.jpg",
+      "initialSize" : 66888,
+      "fileType" : 4096
     },
     "\/assets\/sass\/bourbon\/neat\/grid\/_omega.scss" : {
       "ignoreWasSetByUser" : 0,
@@ -363,9 +365,41 @@
       "inputAbbreviatedPath" : "\/assets\/sass\/bourbon\/neat\/grid\/_omega.scss",
       "outputStyle" : 0,
       "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/assets\/sass\/bourbon\/neat\/css\/_omega.css",
+      "outputAbbreviatedPath" : "\/assets\/css\/_omega.css",
       "fileType" : 4,
       "debugStyle" : 0
+    },
+    "\/history.html" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/history.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/assets\/sass\/bourbon\/neat\/grid\/_fill-parent.scss" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/assets\/sass\/bourbon\/neat\/grid\/_fill-parent.scss",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/assets\/css\/_fill-parent.css",
+      "fileType" : 4,
+      "debugStyle" : 0
+    },
+    "\/assets\/img\/ugie-carnival-dance-9.jpg" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/assets\/img\/ugie-carnival-dance-9.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/assets\/img\/ugie-carnival-dance-9.jpg",
+      "initialSize" : 99681,
+      "fileType" : 4096
     },
     "\/assets\/sass\/print.scss" : {
       "ignoreWasSetByUser" : 0,
@@ -379,24 +413,12 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/assets\/sass\/bourbon\/neat\/grid\/_fill-parent.scss" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/assets\/sass\/bourbon\/neat\/grid\/_fill-parent.scss",
-      "outputStyle" : 0,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/assets\/sass\/bourbon\/neat\/css\/_fill-parent.css",
-      "fileType" : 4,
-      "debugStyle" : 0
-    },
-    "\/history.html" : {
+    "\/event-lineup.html" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/history.html",
+      "inputAbbreviatedPath" : "\/event-lineup.html",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
@@ -412,6 +434,17 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
+    "\/assets\/img\/ugie-carnival2-pictures5.jpg" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/assets\/img\/ugie-carnival2-pictures5.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/assets\/img\/ugie-carnival2-pictures5.jpg",
+      "initialSize" : 50640,
+      "fileType" : 4096
+    },
     "\/apple-touch-icon-precomposed.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -423,6 +456,17 @@
       "initialSize" : 1226,
       "fileType" : 8192
     },
+    "\/assets\/img\/ugie-carnival-dance-5.jpg" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/assets\/img\/ugie-carnival-dance-5.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/assets\/img\/ugie-carnival-dance-5.jpg",
+      "initialSize" : 66329,
+      "fileType" : 4096
+    },
     "\/assets\/sass\/bourbon\/css3\/_box-sizing.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -431,7 +475,7 @@
       "inputAbbreviatedPath" : "\/assets\/sass\/bourbon\/css3\/_box-sizing.scss",
       "outputStyle" : 0,
       "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/assets\/sass\/bourbon\/css\/_box-sizing.css",
+      "outputAbbreviatedPath" : "\/assets\/css\/_box-sizing.css",
       "fileType" : 4,
       "debugStyle" : 0
     },
@@ -464,7 +508,7 @@
       "inputAbbreviatedPath" : "\/assets\/sass\/bourbon\/css3\/_placeholder.scss",
       "outputStyle" : 0,
       "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/assets\/sass\/bourbon\/css\/_placeholder.css",
+      "outputAbbreviatedPath" : "\/assets\/css\/_placeholder.css",
       "fileType" : 4,
       "debugStyle" : 0
     },
@@ -488,18 +532,20 @@
       "inputAbbreviatedPath" : "\/assets\/sass\/bourbon\/addons\/_retina-image.scss",
       "outputStyle" : 0,
       "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/assets\/sass\/bourbon\/css\/_retina-image.css",
+      "outputAbbreviatedPath" : "\/assets\/css\/_retina-image.css",
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/config.rb" : {
+    "\/assets\/img\/ugie-carnival-dance-1.jpg" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/config.rb",
-      "outputAbbreviatedPath" : "\/config.rb",
-      "fileType" : 32768
+      "inputAbbreviatedPath" : "\/assets\/img\/ugie-carnival-dance-1.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/assets\/img\/ugie-carnival-dance-1.jpg",
+      "initialSize" : 110951,
+      "fileType" : 4096
     },
     "\/assets\/sass\/bourbon\/neat\/grid\/_private.scss" : {
       "ignoreWasSetByUser" : 0,
@@ -509,9 +555,18 @@
       "inputAbbreviatedPath" : "\/assets\/sass\/bourbon\/neat\/grid\/_private.scss",
       "outputStyle" : 0,
       "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/assets\/sass\/bourbon\/neat\/css\/_private.css",
+      "outputAbbreviatedPath" : "\/assets\/css\/_private.css",
       "fileType" : 4,
       "debugStyle" : 0
+    },
+    "\/config.rb" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/config.rb",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 32768
     },
     "\/assets\/sass\/bourbon\/functions\/_grid-width.scss" : {
       "ignoreWasSetByUser" : 0,
@@ -521,7 +576,7 @@
       "inputAbbreviatedPath" : "\/assets\/sass\/bourbon\/functions\/_grid-width.scss",
       "outputStyle" : 0,
       "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/assets\/sass\/bourbon\/css\/_grid-width.css",
+      "outputAbbreviatedPath" : "\/assets\/css\/_grid-width.css",
       "fileType" : 4,
       "debugStyle" : 0
     },
@@ -533,7 +588,19 @@
       "inputAbbreviatedPath" : "\/assets\/sass\/bourbon\/css3\/_border-radius.scss",
       "outputStyle" : 0,
       "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/assets\/sass\/bourbon\/css\/_border-radius.css",
+      "outputAbbreviatedPath" : "\/assets\/css\/_border-radius.css",
+      "fileType" : 4,
+      "debugStyle" : 0
+    },
+    "\/assets\/sass\/bourbon\/css3\/_transform.scss" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/assets\/sass\/bourbon\/css3\/_transform.scss",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/assets\/css\/_transform.css",
       "fileType" : 4,
       "debugStyle" : 0
     },
@@ -549,18 +616,6 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/assets\/sass\/bourbon\/css3\/_transform.scss" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/assets\/sass\/bourbon\/css3\/_transform.scss",
-      "outputStyle" : 0,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/assets\/sass\/bourbon\/css\/_transform.css",
-      "fileType" : 4,
-      "debugStyle" : 0
-    },
     "\/assets\/sass\/bourbon\/css3\/_columns.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -569,7 +624,7 @@
       "inputAbbreviatedPath" : "\/assets\/sass\/bourbon\/css3\/_columns.scss",
       "outputStyle" : 0,
       "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/assets\/sass\/bourbon\/css\/_columns.css",
+      "outputAbbreviatedPath" : "\/assets\/css\/_columns.css",
       "fileType" : 4,
       "debugStyle" : 0
     },
@@ -601,7 +656,7 @@
       "inputAbbreviatedPath" : "\/assets\/sass\/bourbon\/neat\/grid\/_reset.scss",
       "outputStyle" : 0,
       "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/assets\/sass\/bourbon\/neat\/css\/_reset.css",
+      "outputAbbreviatedPath" : "\/assets\/css\/_reset.css",
       "fileType" : 4,
       "debugStyle" : 0
     },
@@ -613,7 +668,7 @@
       "inputAbbreviatedPath" : "\/assets\/sass\/bourbon\/addons\/_size.scss",
       "outputStyle" : 0,
       "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/assets\/sass\/bourbon\/css\/_size.css",
+      "outputAbbreviatedPath" : "\/assets\/css\/_size.css",
       "fileType" : 4,
       "debugStyle" : 0
     },
@@ -625,7 +680,7 @@
       "inputAbbreviatedPath" : "\/assets\/sass\/bourbon\/addons\/_button.scss",
       "outputStyle" : 0,
       "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/assets\/sass\/bourbon\/css\/_button.css",
+      "outputAbbreviatedPath" : "\/assets\/css\/_button.css",
       "fileType" : 4,
       "debugStyle" : 0
     },
@@ -637,7 +692,7 @@
       "inputAbbreviatedPath" : "\/assets\/sass\/bourbon\/helpers\/_deprecated-webkit-gradient.scss",
       "outputStyle" : 0,
       "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/assets\/sass\/bourbon\/css\/_deprecated-webkit-gradient.css",
+      "outputAbbreviatedPath" : "\/assets\/css\/_deprecated-webkit-gradient.css",
       "fileType" : 4,
       "debugStyle" : 0
     },
@@ -652,6 +707,17 @@
       "initialSize" : 25584,
       "fileType" : 8192
     },
+    "\/assets\/img\/ugie-carnival-dance-12.jpg" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/assets\/img\/ugie-carnival-dance-12.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/assets\/img\/ugie-carnival-dance-12.jpg",
+      "initialSize" : 91460,
+      "fileType" : 4096
+    },
     "\/assets\/sass\/bourbon\/helpers\/_linear-positions-parser.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -660,21 +726,20 @@
       "inputAbbreviatedPath" : "\/assets\/sass\/bourbon\/helpers\/_linear-positions-parser.scss",
       "outputStyle" : 0,
       "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/assets\/sass\/bourbon\/css\/_linear-positions-parser.css",
+      "outputAbbreviatedPath" : "\/assets\/css\/_linear-positions-parser.css",
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/assets\/sass\/bourbon\/bourbon\/addons\/_hide-text.scss" : {
+    "\/assets\/img\/ugie-carnival-dance-18.jpg" : {
       "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
+      "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/assets\/sass\/bourbon\/bourbon\/addons\/_hide-text.scss",
-      "outputStyle" : 0,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/assets\/sass\/bourbon\/bourbon\/css\/_hide-text.css",
-      "fileType" : 4,
-      "debugStyle" : 0
+      "inputAbbreviatedPath" : "\/assets\/img\/ugie-carnival-dance-18.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/assets\/img\/ugie-carnival-dance-18.jpg",
+      "initialSize" : 106621,
+      "fileType" : 4096
     },
     "\/assets\/sass\/bourbon\/functions\/_compact.scss" : {
       "ignoreWasSetByUser" : 0,
@@ -697,15 +762,6 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/assets\/sass\/ie.css" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/assets\/sass\/ie.css",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 16
-    },
     "\/assets\/sass\/bourbon\/functions\/_px-to-em.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -718,6 +774,27 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
+    "\/assets\/sass\/ie.css" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/assets\/sass\/ie.css",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 16
+    },
+    "\/assets\/sass\/bourbon\/bourbon\/addons\/_hide-text.scss" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/assets\/sass\/bourbon\/bourbon\/addons\/_hide-text.scss",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/assets\/css\/_hide-text.css",
+      "fileType" : 4,
+      "debugStyle" : 0
+    },
     "\/assets\/sass\/bourbon\/bourbon\/css3\/_image-rendering.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -726,7 +803,7 @@
       "inputAbbreviatedPath" : "\/assets\/sass\/bourbon\/bourbon\/css3\/_image-rendering.scss",
       "outputStyle" : 0,
       "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/assets\/sass\/bourbon\/bourbon\/css\/_image-rendering.css",
+      "outputAbbreviatedPath" : "\/assets\/css\/_image-rendering.css",
       "fileType" : 4,
       "debugStyle" : 0
     },
@@ -747,7 +824,7 @@
       "inputAbbreviatedPath" : "\/assets\/sass\/bourbon\/bourbon\/helpers\/_deprecated-webkit-gradient.scss",
       "outputStyle" : 0,
       "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/assets\/sass\/bourbon\/bourbon\/css\/_deprecated-webkit-gradient.css",
+      "outputAbbreviatedPath" : "\/assets\/css\/_deprecated-webkit-gradient.css",
       "fileType" : 4,
       "debugStyle" : 0
     },
@@ -771,6 +848,18 @@
       "outputAbbreviatedPath" : "\/assets\/js\/main.min-ck.js",
       "fileType" : 64
     },
+    "\/assets\/sass\/bourbon\/bourbon\/helpers\/_radial-positions-parser.scss" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/assets\/sass\/bourbon\/bourbon\/helpers\/_radial-positions-parser.scss",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/assets\/css\/_radial-positions-parser.css",
+      "fileType" : 4,
+      "debugStyle" : 0
+    },
     "\/assets\/sass\/bourbon\/helpers\/_shape-size-stripper.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -779,7 +868,7 @@
       "inputAbbreviatedPath" : "\/assets\/sass\/bourbon\/helpers\/_shape-size-stripper.scss",
       "outputStyle" : 0,
       "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/assets\/sass\/bourbon\/css\/_shape-size-stripper.css",
+      "outputAbbreviatedPath" : "\/assets\/css\/_shape-size-stripper.css",
       "fileType" : 4,
       "debugStyle" : 0
     },
@@ -791,19 +880,30 @@
       "inputAbbreviatedPath" : "\/assets\/sass\/bourbon\/css3\/_background-image.scss",
       "outputStyle" : 0,
       "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/assets\/sass\/bourbon\/css\/_background-image.css",
+      "outputAbbreviatedPath" : "\/assets\/css\/_background-image.css",
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/assets\/sass\/bourbon\/bourbon\/helpers\/_radial-positions-parser.scss" : {
+    "\/assets\/img\/ugie-carnival2-pictures6.jpg" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/assets\/img\/ugie-carnival2-pictures6.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/assets\/img\/ugie-carnival2-pictures6.jpg",
+      "initialSize" : 58285,
+      "fileType" : 4096
+    },
+    "\/assets\/sass\/bourbon\/bourbon\/addons\/_html5-input-types.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/assets\/sass\/bourbon\/bourbon\/helpers\/_radial-positions-parser.scss",
+      "inputAbbreviatedPath" : "\/assets\/sass\/bourbon\/bourbon\/addons\/_html5-input-types.scss",
       "outputStyle" : 0,
       "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/assets\/sass\/bourbon\/bourbon\/css\/_radial-positions-parser.css",
+      "outputAbbreviatedPath" : "\/assets\/css\/_html5-input-types.css",
       "fileType" : 4,
       "debugStyle" : 0
     },
@@ -816,29 +916,6 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/assets\/sass\/bourbon\/bourbon\/addons\/_html5-input-types.scss" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/assets\/sass\/bourbon\/bourbon\/addons\/_html5-input-types.scss",
-      "outputStyle" : 0,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/assets\/sass\/bourbon\/bourbon\/css\/_html5-input-types.css",
-      "fileType" : 4,
-      "debugStyle" : 0
-    },
-    "\/assets\/js\/selectivizr-min.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/assets\/js\/selectivizr-min.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 0,
-      "outputAbbreviatedPath" : "\/assets\/js\/selectivizr-min-ck.js",
-      "fileType" : 64
-    },
     "\/assets\/sass\/bourbon\/css3\/_radial-gradient.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -850,6 +927,28 @@
       "outputAbbreviatedPath" : "\/assets\/css\/_radial-gradient.css",
       "fileType" : 4,
       "debugStyle" : 0
+    },
+    "\/assets\/img\/ugie-carnival2-pictures10.jpg" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/assets\/img\/ugie-carnival2-pictures10.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/assets\/img\/ugie-carnival2-pictures10.jpg",
+      "initialSize" : 56780,
+      "fileType" : 4096
+    },
+    "\/assets\/js\/selectivizr-min.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/assets\/js\/selectivizr-min.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 0,
+      "outputAbbreviatedPath" : "\/assets\/js\/selectivizr-min-ck.js",
+      "fileType" : 64
     },
     "\/assets\/img\/The-Oba-and-his-wives.jpg" : {
       "ignoreWasSetByUser" : 0,
@@ -873,16 +972,16 @@
       "initialSize" : 51871,
       "fileType" : 4096
     },
-    "\/assets\/js\/main.js" : {
+    "\/assets\/img\/ugie-carnival2-pictures1.jpg" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/assets\/js\/main.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 0,
-      "outputAbbreviatedPath" : "\/assets\/js\/main-ck.js",
-      "fileType" : 64
+      "inputAbbreviatedPath" : "\/assets\/img\/ugie-carnival2-pictures1.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/assets\/img\/ugie-carnival2-pictures1.jpg",
+      "initialSize" : 51618,
+      "fileType" : 4096
     },
     "\/assets\/sass\/bourbon\/css3\/_linear-gradient.scss" : {
       "ignoreWasSetByUser" : 0,
@@ -892,9 +991,20 @@
       "inputAbbreviatedPath" : "\/assets\/sass\/bourbon\/css3\/_linear-gradient.scss",
       "outputStyle" : 0,
       "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/assets\/sass\/bourbon\/css\/_linear-gradient.css",
+      "outputAbbreviatedPath" : "\/assets\/css\/_linear-gradient.css",
       "fileType" : 4,
       "debugStyle" : 0
+    },
+    "\/assets\/img\/ugie-carnival-dance-8.jpg" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/assets\/img\/ugie-carnival-dance-8.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/assets\/img\/ugie-carnival-dance-8.jpg",
+      "initialSize" : 147769,
+      "fileType" : 4096
     },
     "\/assets\/sass\/bourbon\/bourbon\/functions\/_px-to-em.scss" : {
       "ignoreWasSetByUser" : 0,
@@ -904,7 +1014,7 @@
       "inputAbbreviatedPath" : "\/assets\/sass\/bourbon\/bourbon\/functions\/_px-to-em.scss",
       "outputStyle" : 0,
       "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/assets\/sass\/bourbon\/bourbon\/css\/_px-to-em.css",
+      "outputAbbreviatedPath" : "\/assets\/css\/_px-to-em.css",
       "fileType" : 4,
       "debugStyle" : 0
     },
@@ -916,9 +1026,20 @@
       "inputAbbreviatedPath" : "\/assets\/sass\/bourbon\/bourbon\/functions\/_compact.scss",
       "outputStyle" : 0,
       "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/assets\/sass\/bourbon\/bourbon\/css\/_compact.css",
+      "outputAbbreviatedPath" : "\/assets\/css\/_compact.css",
       "fileType" : 4,
       "debugStyle" : 0
+    },
+    "\/assets\/js\/main.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/assets\/js\/main.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 0,
+      "outputAbbreviatedPath" : "\/assets\/js\/main-ck.js",
+      "fileType" : 64
     },
     "\/assets\/css\/print.css" : {
       "ignoreWasSetByUser" : 0,
@@ -928,6 +1049,17 @@
       "inputAbbreviatedPath" : "\/assets\/css\/print.css",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 16
+    },
+    "\/assets\/img\/ugie-masquerades-performing2.jpg" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/assets\/img\/ugie-masquerades-performing2.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/assets\/img\/ugie-masquerades-performing2.jpg",
+      "initialSize" : 114659,
+      "fileType" : 4096
     },
     "\/assets\/sass\/bourbon\/bourbon\/css3\/_radial-gradient.scss" : {
       "ignoreWasSetByUser" : 0,
@@ -949,7 +1081,7 @@
       "inputAbbreviatedPath" : "\/assets\/sass\/bourbon\/functions\/_radial-gradient.scss",
       "outputStyle" : 0,
       "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/assets\/sass\/bourbon\/css\/_radial-gradient.css",
+      "outputAbbreviatedPath" : "\/assets\/css\/_radial-gradient.css",
       "fileType" : 4,
       "debugStyle" : 0
     },
@@ -973,19 +1105,7 @@
       "inputAbbreviatedPath" : "\/assets\/sass\/bourbon\/bourbon\/functions\/_tint-shade.scss",
       "outputStyle" : 0,
       "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/assets\/sass\/bourbon\/bourbon\/css\/_tint-shade.css",
-      "fileType" : 4,
-      "debugStyle" : 0
-    },
-    "\/assets\/sass\/bourbon\/bourbon\/functions\/_grid-width.scss" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/assets\/sass\/bourbon\/bourbon\/functions\/_grid-width.scss",
-      "outputStyle" : 0,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/assets\/sass\/bourbon\/bourbon\/css\/_grid-width.css",
+      "outputAbbreviatedPath" : "\/assets\/css\/_tint-shade.css",
       "fileType" : 4,
       "debugStyle" : 0
     },
@@ -1011,6 +1131,17 @@
       "outputAbbreviatedPath" : "\/assets\/js\/jquerypp.custom.min-ck.js",
       "fileType" : 64
     },
+    "\/assets\/img\/ugie-carnival-dance-4.jpg" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/assets\/img\/ugie-carnival-dance-4.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/assets\/img\/ugie-carnival-dance-4.jpg",
+      "initialSize" : 80230,
+      "fileType" : 4096
+    },
     "\/ugie-homepage.html" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -1020,6 +1151,18 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
+    "\/assets\/sass\/bourbon\/bourbon\/functions\/_grid-width.scss" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/assets\/sass\/bourbon\/bourbon\/functions\/_grid-width.scss",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/assets\/css\/_grid-width.css",
+      "fileType" : 4,
+      "debugStyle" : 0
+    },
     "\/assets\/sass\/bourbon\/neat\/functions\/_new-breakpoint.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -1028,7 +1171,7 @@
       "inputAbbreviatedPath" : "\/assets\/sass\/bourbon\/neat\/functions\/_new-breakpoint.scss",
       "outputStyle" : 0,
       "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/assets\/sass\/bourbon\/neat\/css\/_new-breakpoint.css",
+      "outputAbbreviatedPath" : "\/assets\/css\/_new-breakpoint.css",
       "fileType" : 4,
       "debugStyle" : 0
     },
@@ -1040,9 +1183,20 @@
       "inputAbbreviatedPath" : "\/assets\/sass\/bourbon\/bourbon\/css3\/_background-image.scss",
       "outputStyle" : 0,
       "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/assets\/sass\/bourbon\/bourbon\/css\/_background-image.css",
+      "outputAbbreviatedPath" : "\/assets\/css\/_background-image.css",
       "fileType" : 4,
       "debugStyle" : 0
+    },
+    "\/assets\/img\/ugie-masquerades-performing5.jpg" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/assets\/img\/ugie-masquerades-performing5.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/assets\/img\/ugie-masquerades-performing5.jpg",
+      "initialSize" : 65098,
+      "fileType" : 4096
     },
     "\/assets\/js\/plugins.js" : {
       "ignoreWasSetByUser" : 0,
@@ -1079,17 +1233,16 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/assets\/sass\/bourbon\/bourbon\/css3\/_user-select.scss" : {
+    "\/assets\/js\/easing.js" : {
       "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
+      "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/assets\/sass\/bourbon\/bourbon\/css3\/_user-select.scss",
-      "outputStyle" : 0,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/assets\/sass\/bourbon\/bourbon\/css\/_user-select.css",
-      "fileType" : 4,
-      "debugStyle" : 0
+      "inputAbbreviatedPath" : "\/assets\/js\/easing.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 0,
+      "outputAbbreviatedPath" : "\/assets\/js\/easing-ck.js",
+      "fileType" : 64
     },
     "\/assets\/js\/jquery.cycle2.min.js" : {
       "ignoreWasSetByUser" : 0,
@@ -1102,17 +1255,6 @@
       "outputAbbreviatedPath" : "\/assets\/js\/jquery.cycle2.min-ck.js",
       "fileType" : 64
     },
-    "\/assets\/js\/easing.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/assets\/js\/easing.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 0,
-      "outputAbbreviatedPath" : "\/assets\/js\/easing-ck.js",
-      "fileType" : 64
-    },
     "\/assets\/sass\/bourbon\/bourbon\/css3\/_columns.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -1121,7 +1263,19 @@
       "inputAbbreviatedPath" : "\/assets\/sass\/bourbon\/bourbon\/css3\/_columns.scss",
       "outputStyle" : 0,
       "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/assets\/sass\/bourbon\/bourbon\/css\/_columns.css",
+      "outputAbbreviatedPath" : "\/assets\/css\/_columns.css",
+      "fileType" : 4,
+      "debugStyle" : 0
+    },
+    "\/assets\/sass\/bourbon\/bourbon\/css3\/_user-select.scss" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/assets\/sass\/bourbon\/bourbon\/css3\/_user-select.scss",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/assets\/css\/_user-select.css",
       "fileType" : 4,
       "debugStyle" : 0
     },
@@ -1144,7 +1298,7 @@
       "inputAbbreviatedPath" : "\/assets\/sass\/bourbon\/addons\/_clearfix.scss",
       "outputStyle" : 0,
       "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/assets\/sass\/bourbon\/css\/_clearfix.css",
+      "outputAbbreviatedPath" : "\/assets\/css\/_clearfix.css",
       "fileType" : 4,
       "debugStyle" : 0
     },
@@ -1156,7 +1310,7 @@
       "inputAbbreviatedPath" : "\/assets\/sass\/bourbon\/neat\/grid\/_grid.scss",
       "outputStyle" : 0,
       "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/assets\/sass\/bourbon\/neat\/css\/_grid.css",
+      "outputAbbreviatedPath" : "\/assets\/css\/_grid.css",
       "fileType" : 4,
       "debugStyle" : 0
     },
@@ -1171,17 +1325,6 @@
       "outputAbbreviatedPath" : "\/assets\/js\/jquery.event.move-ck.js",
       "fileType" : 64
     },
-    "\/assets\/js\/main-ck.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/assets\/js\/main-ck.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 0,
-      "outputAbbreviatedPath" : "\/assets\/js\/main-ck-ck.js",
-      "fileType" : 64
-    },
     "\/assets\/img\/benin-chiefs-dancing.jpg" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -1192,6 +1335,17 @@
       "outputAbbreviatedPath" : "\/assets\/img\/benin-chiefs-dancing.jpg",
       "initialSize" : 185393,
       "fileType" : 4096
+    },
+    "\/assets\/js\/main-ck.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/assets\/js\/main-ck.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 0,
+      "outputAbbreviatedPath" : "\/assets\/js\/main-ck-ck.js",
+      "fileType" : 64
     },
     "\/assets\/sass\/bourbon\/bourbon\/addons\/_prefixer.scss" : {
       "ignoreWasSetByUser" : 0,
@@ -1213,7 +1367,7 @@
       "inputAbbreviatedPath" : "\/assets\/sass\/bourbon\/functions\/_linear-gradient.scss",
       "outputStyle" : 0,
       "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/assets\/sass\/bourbon\/css\/_linear-gradient.css",
+      "outputAbbreviatedPath" : "\/assets\/css\/_linear-gradient.css",
       "fileType" : 4,
       "debugStyle" : 0
     },
@@ -1225,7 +1379,7 @@
       "inputAbbreviatedPath" : "\/assets\/sass\/bourbon\/bourbon\/css3\/_background.scss",
       "outputStyle" : 0,
       "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/assets\/sass\/bourbon\/bourbon\/css\/_background.css",
+      "outputAbbreviatedPath" : "\/assets\/css\/_background.css",
       "fileType" : 4,
       "debugStyle" : 0
     },
@@ -1239,6 +1393,17 @@
       "outputAbbreviatedPath" : "\/assets\/img\/edo-state-tourism.png",
       "initialSize" : 13726,
       "fileType" : 8192
+    },
+    "\/assets\/img\/ugie-carnival2-pictures7.jpg" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/assets\/img\/ugie-carnival2-pictures7.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/assets\/img\/ugie-carnival2-pictures7.jpg",
+      "initialSize" : 78471,
+      "fileType" : 4096
     },
     "\/assets\/img\/benin-chiefs-with-ewere-leaves2.jpg" : {
       "ignoreWasSetByUser" : 0,
@@ -1259,7 +1424,7 @@
       "inputAbbreviatedPath" : "\/assets\/sass\/bourbon\/addons\/_html5-input-types.scss",
       "outputStyle" : 0,
       "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/assets\/sass\/bourbon\/css\/_html5-input-types.css",
+      "outputAbbreviatedPath" : "\/assets\/css\/_html5-input-types.css",
       "fileType" : 4,
       "debugStyle" : 0
     },
@@ -1295,7 +1460,7 @@
       "inputAbbreviatedPath" : "\/assets\/sass\/bourbon\/addons\/_timing-functions.scss",
       "outputStyle" : 0,
       "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/assets\/sass\/bourbon\/css\/_timing-functions.css",
+      "outputAbbreviatedPath" : "\/assets\/css\/_timing-functions.css",
       "fileType" : 4,
       "debugStyle" : 0
     },
@@ -1333,6 +1498,17 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
+    "\/assets\/img\/ugie-carnival2-pictures2.jpg" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/assets\/img\/ugie-carnival2-pictures2.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/assets\/img\/ugie-carnival2-pictures2.jpg",
+      "initialSize" : 62148,
+      "fileType" : 4096
+    },
     "\/assets\/sass\/bourbon\/css3\/_hidpi-media-query.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -1341,7 +1517,7 @@
       "inputAbbreviatedPath" : "\/assets\/sass\/bourbon\/css3\/_hidpi-media-query.scss",
       "outputStyle" : 0,
       "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/assets\/sass\/bourbon\/css\/_hidpi-media-query.css",
+      "outputAbbreviatedPath" : "\/assets\/css\/_hidpi-media-query.css",
       "fileType" : 4,
       "debugStyle" : 0
     },
@@ -1353,7 +1529,7 @@
       "inputAbbreviatedPath" : "\/assets\/sass\/bourbon\/css3\/_animation.scss",
       "outputStyle" : 0,
       "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/assets\/sass\/bourbon\/css\/_animation.css",
+      "outputAbbreviatedPath" : "\/assets\/css\/_animation.css",
       "fileType" : 4,
       "debugStyle" : 0
     },
@@ -1365,7 +1541,7 @@
       "inputAbbreviatedPath" : "\/assets\/sass\/bourbon\/bourbon\/functions\/_flex-grid.scss",
       "outputStyle" : 0,
       "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/assets\/sass\/bourbon\/bourbon\/css\/_flex-grid.css",
+      "outputAbbreviatedPath" : "\/assets\/css\/_flex-grid.css",
       "fileType" : 4,
       "debugStyle" : 0
     },
@@ -1378,6 +1554,17 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 16
     },
+    "\/assets\/img\/ugie-carnival-dance-10.jpg" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/assets\/img\/ugie-carnival-dance-10.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/assets\/img\/ugie-carnival-dance-10.jpg",
+      "initialSize" : 113499,
+      "fileType" : 4096
+    },
     "\/assets\/sass\/bourbon\/neat\/grid\/_span-columns.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -1386,7 +1573,7 @@
       "inputAbbreviatedPath" : "\/assets\/sass\/bourbon\/neat\/grid\/_span-columns.scss",
       "outputStyle" : 0,
       "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/assets\/sass\/bourbon\/neat\/css\/_span-columns.css",
+      "outputAbbreviatedPath" : "\/assets\/css\/_span-columns.css",
       "fileType" : 4,
       "debugStyle" : 0
     },
@@ -1398,7 +1585,7 @@
       "inputAbbreviatedPath" : "\/assets\/sass\/bourbon\/addons\/_font-family.scss",
       "outputStyle" : 0,
       "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/assets\/sass\/bourbon\/css\/_font-family.css",
+      "outputAbbreviatedPath" : "\/assets\/css\/_font-family.css",
       "fileType" : 4,
       "debugStyle" : 0
     },
@@ -1410,7 +1597,7 @@
       "inputAbbreviatedPath" : "\/assets\/sass\/bourbon\/bourbon\/functions\/_radial-gradient.scss",
       "outputStyle" : 0,
       "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/assets\/sass\/bourbon\/bourbon\/css\/_radial-gradient.css",
+      "outputAbbreviatedPath" : "\/assets\/css\/_radial-gradient.css",
       "fileType" : 4,
       "debugStyle" : 0
     },
@@ -1434,6 +1621,28 @@
       "initialSize" : 48743,
       "fileType" : 4096
     },
+    "\/assets\/img\/ugie-carnival-dance-7.jpg" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/assets\/img\/ugie-carnival-dance-7.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/assets\/img\/ugie-carnival-dance-7.jpg",
+      "initialSize" : 108378,
+      "fileType" : 4096
+    },
+    "\/assets\/img\/ugie-carnival2-pictures.jpg" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/assets\/img\/ugie-carnival2-pictures.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/assets\/img\/ugie-carnival2-pictures.jpg",
+      "initialSize" : 75315,
+      "fileType" : 4096
+    },
     "\/assets\/js\/waypoints.min.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -1453,7 +1662,7 @@
       "inputAbbreviatedPath" : "\/assets\/sass\/bourbon\/bourbon\/addons\/_timing-functions.scss",
       "outputStyle" : 0,
       "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/assets\/sass\/bourbon\/bourbon\/css\/_timing-functions.css",
+      "outputAbbreviatedPath" : "\/assets\/css\/_timing-functions.css",
       "fileType" : 4,
       "debugStyle" : 0
     },
@@ -1465,7 +1674,7 @@
       "inputAbbreviatedPath" : "\/assets\/sass\/bourbon\/bourbon\/css3\/_animation.scss",
       "outputStyle" : 0,
       "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/assets\/sass\/bourbon\/bourbon\/css\/_animation.css",
+      "outputAbbreviatedPath" : "\/assets\/css\/_animation.css",
       "fileType" : 4,
       "debugStyle" : 0
     },
@@ -1477,9 +1686,20 @@
       "inputAbbreviatedPath" : "\/assets\/sass\/bourbon\/css3\/_flex-box.scss",
       "outputStyle" : 0,
       "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/assets\/sass\/bourbon\/css\/_flex-box.css",
+      "outputAbbreviatedPath" : "\/assets\/css\/_flex-box.css",
       "fileType" : 4,
       "debugStyle" : 0
+    },
+    "\/assets\/img\/ugie-a-festivity-of-colourful-fun.jpg" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/assets\/img\/ugie-a-festivity-of-colourful-fun.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/assets\/img\/ugie-a-festivity-of-colourful-fun.jpg",
+      "initialSize" : 110116,
+      "fileType" : 4096
     },
     "\/assets\/sass\/bourbon\/functions\/_flex-grid.scss" : {
       "ignoreWasSetByUser" : 0,
@@ -1489,7 +1709,7 @@
       "inputAbbreviatedPath" : "\/assets\/sass\/bourbon\/functions\/_flex-grid.scss",
       "outputStyle" : 0,
       "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/assets\/sass\/bourbon\/css\/_flex-grid.css",
+      "outputAbbreviatedPath" : "\/assets\/css\/_flex-grid.css",
       "fileType" : 4,
       "debugStyle" : 0
     },
@@ -1501,7 +1721,7 @@
       "inputAbbreviatedPath" : "\/assets\/sass\/bourbon\/neat\/grid\/_media.scss",
       "outputStyle" : 0,
       "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/assets\/sass\/bourbon\/neat\/css\/_media.css",
+      "outputAbbreviatedPath" : "\/assets\/css\/_media.css",
       "fileType" : 4,
       "debugStyle" : 0
     },
@@ -1513,7 +1733,7 @@
       "inputAbbreviatedPath" : "\/assets\/sass\/bourbon\/bourbon\/css3\/_border-image.scss",
       "outputStyle" : 0,
       "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/assets\/sass\/bourbon\/bourbon\/css\/_border-image.css",
+      "outputAbbreviatedPath" : "\/assets\/css\/_border-image.css",
       "fileType" : 4,
       "debugStyle" : 0
     },
@@ -1525,7 +1745,7 @@
       "inputAbbreviatedPath" : "\/assets\/sass\/bourbon\/bourbon\/_bourbon.scss",
       "outputStyle" : 0,
       "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/assets\/sass\/bourbon\/css\/_bourbon.css",
+      "outputAbbreviatedPath" : "\/assets\/css\/_bourbon.css",
       "fileType" : 4,
       "debugStyle" : 0
     },
@@ -1541,6 +1761,17 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
+    "\/assets\/img\/ugie-carnival-dance-3.jpg" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/assets\/img\/ugie-carnival-dance-3.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/assets\/img\/ugie-carnival-dance-3.jpg",
+      "initialSize" : 136961,
+      "fileType" : 4096
+    },
     "\/assets\/sass\/bourbon\/helpers\/_radial-arg-parser.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -1549,7 +1780,7 @@
       "inputAbbreviatedPath" : "\/assets\/sass\/bourbon\/helpers\/_radial-arg-parser.scss",
       "outputStyle" : 0,
       "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/assets\/sass\/bourbon\/css\/_radial-arg-parser.css",
+      "outputAbbreviatedPath" : "\/assets\/css\/_radial-arg-parser.css",
       "fileType" : 4,
       "debugStyle" : 0
     },
@@ -1570,7 +1801,7 @@
       "inputAbbreviatedPath" : "\/assets\/sass\/bourbon\/bourbon\/helpers\/_gradient-positions-parser.scss",
       "outputStyle" : 0,
       "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/assets\/sass\/bourbon\/bourbon\/css\/_gradient-positions-parser.css",
+      "outputAbbreviatedPath" : "\/assets\/css\/_gradient-positions-parser.css",
       "fileType" : 4,
       "debugStyle" : 0
     },
@@ -1594,7 +1825,7 @@
       "inputAbbreviatedPath" : "\/assets\/sass\/bourbon\/bourbon\/helpers\/_shape-size-stripper.scss",
       "outputStyle" : 0,
       "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/assets\/sass\/bourbon\/bourbon\/css\/_shape-size-stripper.css",
+      "outputAbbreviatedPath" : "\/assets\/css\/_shape-size-stripper.css",
       "fileType" : 4,
       "debugStyle" : 0
     },
@@ -1606,9 +1837,20 @@
       "inputAbbreviatedPath" : "\/assets\/sass\/bourbon\/neat\/functions\/_px-to-em.scss",
       "outputStyle" : 0,
       "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/assets\/sass\/bourbon\/neat\/css\/_px-to-em.css",
+      "outputAbbreviatedPath" : "\/assets\/css\/_px-to-em.css",
       "fileType" : 4,
       "debugStyle" : 0
+    },
+    "\/assets\/img\/ugie-carnival2-pictures8.jpg" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/assets\/img\/ugie-carnival2-pictures8.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/assets\/img\/ugie-carnival2-pictures8.jpg",
+      "initialSize" : 55070,
+      "fileType" : 4096
     },
     "\/assets\/sass\/bourbon\/addons\/_position.scss" : {
       "ignoreWasSetByUser" : 0,
@@ -1630,7 +1872,7 @@
       "inputAbbreviatedPath" : "\/assets\/sass\/bourbon\/neat\/functions\/_private.scss",
       "outputStyle" : 0,
       "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/assets\/sass\/bourbon\/neat\/css\/_private.css",
+      "outputAbbreviatedPath" : "\/assets\/css\/_private.css",
       "fileType" : 4,
       "debugStyle" : 0
     },
@@ -1642,19 +1884,7 @@
       "inputAbbreviatedPath" : "\/assets\/sass\/bourbon\/bourbon\/_bourbon-deprecated-upcoming.scss",
       "outputStyle" : 0,
       "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/assets\/sass\/bourbon\/css\/_bourbon-deprecated-upcoming.css",
-      "fileType" : 4,
-      "debugStyle" : 0
-    },
-    "\/assets\/sass\/bourbon\/bourbon\/addons\/_size.scss" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/assets\/sass\/bourbon\/bourbon\/addons\/_size.scss",
-      "outputStyle" : 0,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/assets\/sass\/bourbon\/bourbon\/css\/_size.css",
+      "outputAbbreviatedPath" : "\/assets\/css\/_bourbon-deprecated-upcoming.css",
       "fileType" : 4,
       "debugStyle" : 0
     },
@@ -1666,18 +1896,32 @@
       "inputAbbreviatedPath" : "\/assets\/sass\/bourbon\/bourbon\/css3\/_backface-visibility.scss",
       "outputStyle" : 0,
       "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/assets\/sass\/bourbon\/bourbon\/css\/_backface-visibility.css",
+      "outputAbbreviatedPath" : "\/assets\/css\/_backface-visibility.css",
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/Ugiewebsite.html" : {
+    "\/assets\/sass\/bourbon\/bourbon\/addons\/_size.scss" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/assets\/sass\/bourbon\/bourbon\/addons\/_size.scss",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/assets\/css\/_size.css",
+      "fileType" : 4,
+      "debugStyle" : 0
+    },
+    "\/assets\/img\/ugie-masquerades-performing3.jpg" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/Ugiewebsite.html",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
+      "inputAbbreviatedPath" : "\/assets\/img\/ugie-masquerades-performing3.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/assets\/img\/ugie-masquerades-performing3.jpg",
+      "initialSize" : 80377,
+      "fileType" : 4096
     },
     "\/assets\/sass\/bourbon\/neat\/settings\/_visual-grid.scss" : {
       "ignoreWasSetByUser" : 0,
@@ -1688,18 +1932,6 @@
       "outputStyle" : 0,
       "shouldRunBless" : 0,
       "outputAbbreviatedPath" : "\/assets\/css\/_visual-grid.css",
-      "fileType" : 4,
-      "debugStyle" : 0
-    },
-    "\/assets\/sass\/bourbon\/css3\/_backface-visibility.scss" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/assets\/sass\/bourbon\/css3\/_backface-visibility.scss",
-      "outputStyle" : 0,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/assets\/css\/_backface-visibility.css",
       "fileType" : 4,
       "debugStyle" : 0
     },
@@ -1714,6 +1946,29 @@
       "outputAbbreviatedPath" : "\/assets\/js\/vendor\/jquery-1.10.2.min-ck-ck.js",
       "fileType" : 64
     },
+    "\/assets\/img\/ugie-carnival2-pictures3.jpg" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/assets\/img\/ugie-carnival2-pictures3.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/assets\/img\/ugie-carnival2-pictures3.jpg",
+      "initialSize" : 62035,
+      "fileType" : 4096
+    },
+    "\/assets\/sass\/bourbon\/css3\/_backface-visibility.scss" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/assets\/sass\/bourbon\/css3\/_backface-visibility.scss",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/assets\/css\/_backface-visibility.css",
+      "fileType" : 4,
+      "debugStyle" : 0
+    },
     "\/assets\/sass\/bourbon\/bourbon\/css3\/_inline-block.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -1722,9 +1977,29 @@
       "inputAbbreviatedPath" : "\/assets\/sass\/bourbon\/bourbon\/css3\/_inline-block.scss",
       "outputStyle" : 0,
       "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/assets\/sass\/bourbon\/bourbon\/css\/_inline-block.css",
+      "outputAbbreviatedPath" : "\/assets\/css\/_inline-block.css",
       "fileType" : 4,
       "debugStyle" : 0
+    },
+    "\/Ugiewebsite.html" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/Ugiewebsite.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/assets\/img\/ugie-a-celebration-of-an-enduring-heritage.jpg" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/assets\/img\/ugie-a-celebration-of-an-enduring-heritage.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/assets\/img\/ugie-a-celebration-of-an-enduring-heritage.jpg",
+      "initialSize" : 91682,
+      "fileType" : 4096
     },
     "\/homepage.html" : {
       "ignoreWasSetByUser" : 0,
@@ -1775,7 +2050,7 @@
       "inputAbbreviatedPath" : "\/assets\/sass\/bourbon\/neat\/grid\/_outer-container.scss",
       "outputStyle" : 0,
       "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/assets\/sass\/bourbon\/neat\/css\/_outer-container.css",
+      "outputAbbreviatedPath" : "\/assets\/css\/_outer-container.css",
       "fileType" : 4,
       "debugStyle" : 0
     },
@@ -1787,7 +2062,7 @@
       "inputAbbreviatedPath" : "\/assets\/sass\/bourbon\/bourbon\/css3\/_border-radius.scss",
       "outputStyle" : 0,
       "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/assets\/sass\/bourbon\/bourbon\/css\/_border-radius.css",
+      "outputAbbreviatedPath" : "\/assets\/css\/_border-radius.css",
       "fileType" : 4,
       "debugStyle" : 0
     },
@@ -1799,9 +2074,20 @@
       "inputAbbreviatedPath" : "\/assets\/sass\/bourbon\/bourbon\/css3\/_transition.scss",
       "outputStyle" : 0,
       "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/assets\/sass\/bourbon\/bourbon\/css\/_transition.css",
+      "outputAbbreviatedPath" : "\/assets\/css\/_transition.css",
       "fileType" : 4,
       "debugStyle" : 0
+    },
+    "\/assets\/img\/ugie-masquerades-performing6.jpg" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/assets\/img\/ugie-masquerades-performing6.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/assets\/img\/ugie-masquerades-performing6.jpg",
+      "initialSize" : 70052,
+      "fileType" : 4096
     },
     "\/assets\/sass\/bourbon\/helpers\/_gradient-positions-parser.scss" : {
       "ignoreWasSetByUser" : 0,
@@ -1811,7 +2097,7 @@
       "inputAbbreviatedPath" : "\/assets\/sass\/bourbon\/helpers\/_gradient-positions-parser.scss",
       "outputStyle" : 0,
       "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/assets\/sass\/bourbon\/css\/_gradient-positions-parser.css",
+      "outputAbbreviatedPath" : "\/assets\/css\/_gradient-positions-parser.css",
       "fileType" : 4,
       "debugStyle" : 0
     },
@@ -1823,31 +2109,7 @@
       "inputAbbreviatedPath" : "\/assets\/sass\/bourbon\/bourbon\/addons\/_button.scss",
       "outputStyle" : 0,
       "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/assets\/sass\/bourbon\/bourbon\/css\/_button.css",
-      "fileType" : 4,
-      "debugStyle" : 0
-    },
-    "\/assets\/sass\/bourbon\/helpers\/_radial-positions-parser.scss" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/assets\/sass\/bourbon\/helpers\/_radial-positions-parser.scss",
-      "outputStyle" : 0,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/assets\/sass\/bourbon\/css\/_radial-positions-parser.css",
-      "fileType" : 4,
-      "debugStyle" : 0
-    },
-    "\/assets\/sass\/bourbon\/bourbon\/css3\/_transform.scss" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/assets\/sass\/bourbon\/bourbon\/css3\/_transform.scss",
-      "outputStyle" : 0,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/assets\/sass\/bourbon\/bourbon\/css\/_transform.css",
+      "outputAbbreviatedPath" : "\/assets\/css\/_button.css",
       "fileType" : 4,
       "debugStyle" : 0
     },
@@ -1862,18 +2124,6 @@
       "initialSize" : 116365,
       "fileType" : 4096
     },
-    "\/assets\/sass\/bourbon\/bourbon\/css3\/_flex-box.scss" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/assets\/sass\/bourbon\/bourbon\/css3\/_flex-box.scss",
-      "outputStyle" : 0,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/assets\/sass\/bourbon\/bourbon\/css\/_flex-box.css",
-      "fileType" : 4,
-      "debugStyle" : 0
-    },
     "\/assets\/css\/normalize.css" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -1883,6 +2133,42 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 16
     },
+    "\/assets\/sass\/bourbon\/bourbon\/css3\/_transform.scss" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/assets\/sass\/bourbon\/bourbon\/css3\/_transform.scss",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/assets\/css\/_transform.css",
+      "fileType" : 4,
+      "debugStyle" : 0
+    },
+    "\/assets\/sass\/bourbon\/bourbon\/css3\/_flex-box.scss" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/assets\/sass\/bourbon\/bourbon\/css3\/_flex-box.scss",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/assets\/css\/_flex-box.css",
+      "fileType" : 4,
+      "debugStyle" : 0
+    },
+    "\/assets\/sass\/bourbon\/helpers\/_radial-positions-parser.scss" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/assets\/sass\/bourbon\/helpers\/_radial-positions-parser.scss",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/assets\/css\/_radial-positions-parser.css",
+      "fileType" : 4,
+      "debugStyle" : 0
+    },
     "\/assets\/sass\/bourbon\/bourbon\/addons\/_retina-image.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -1891,7 +2177,7 @@
       "inputAbbreviatedPath" : "\/assets\/sass\/bourbon\/bourbon\/addons\/_retina-image.scss",
       "outputStyle" : 0,
       "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/assets\/sass\/bourbon\/bourbon\/css\/_retina-image.css",
+      "outputAbbreviatedPath" : "\/assets\/css\/_retina-image.css",
       "fileType" : 4,
       "debugStyle" : 0
     },
@@ -1903,7 +2189,7 @@
       "inputAbbreviatedPath" : "\/assets\/sass\/bourbon\/functions\/_modular-scale.scss",
       "outputStyle" : 0,
       "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/assets\/sass\/bourbon\/css\/_modular-scale.css",
+      "outputAbbreviatedPath" : "\/assets\/css\/_modular-scale.css",
       "fileType" : 4,
       "debugStyle" : 0
     },
@@ -1954,16 +2240,17 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/assets\/js\/jquery.animatedscroll.js" : {
+    "\/assets\/sass\/bourbon\/bourbon\/css3\/_hidpi-media-query.scss" : {
       "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/assets\/js\/jquery.animatedscroll.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 0,
-      "outputAbbreviatedPath" : "\/assets\/js\/jquery.animatedscroll-ck.js",
-      "fileType" : 64
+      "inputAbbreviatedPath" : "\/assets\/sass\/bourbon\/bourbon\/css3\/_hidpi-media-query.scss",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/assets\/css\/_hidpi-media-query.css",
+      "fileType" : 4,
+      "debugStyle" : 0
     },
     "\/assets\/css\/main.css" : {
       "ignoreWasSetByUser" : 0,
@@ -1974,17 +2261,16 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 16
     },
-    "\/assets\/sass\/bourbon\/bourbon\/css3\/_hidpi-media-query.scss" : {
+    "\/assets\/js\/jquery.animatedscroll.js" : {
       "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
+      "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/assets\/sass\/bourbon\/bourbon\/css3\/_hidpi-media-query.scss",
-      "outputStyle" : 0,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/assets\/sass\/bourbon\/bourbon\/css\/_hidpi-media-query.css",
-      "fileType" : 4,
-      "debugStyle" : 0
+      "inputAbbreviatedPath" : "\/assets\/js\/jquery.animatedscroll.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 0,
+      "outputAbbreviatedPath" : "\/assets\/js\/jquery.animatedscroll-ck.js",
+      "fileType" : 64
     },
     "\/assets\/sass\/bourbon\/neat\/_neat-helpers.scss" : {
       "ignoreWasSetByUser" : 0,
@@ -2006,19 +2292,19 @@
       "inputAbbreviatedPath" : "\/assets\/sass\/bourbon\/css3\/_appearance.scss",
       "outputStyle" : 0,
       "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/assets\/sass\/bourbon\/css\/_appearance.css",
+      "outputAbbreviatedPath" : "\/assets\/css\/_appearance.css",
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/assets\/sass\/bourbon\/helpers\/_render-gradients.scss" : {
+    "\/assets\/sass\/bourbon\/css3\/_border-image.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/assets\/sass\/bourbon\/helpers\/_render-gradients.scss",
+      "inputAbbreviatedPath" : "\/assets\/sass\/bourbon\/css3\/_border-image.scss",
       "outputStyle" : 0,
       "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/assets\/sass\/bourbon\/css\/_render-gradients.css",
+      "outputAbbreviatedPath" : "\/assets\/css\/_border-image.css",
       "fileType" : 4,
       "debugStyle" : 0
     },
@@ -2043,6 +2329,41 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 16
     },
+    "\/assets\/sass\/bourbon\/helpers\/_render-gradients.scss" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/assets\/sass\/bourbon\/helpers\/_render-gradients.scss",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/assets\/css\/_render-gradients.css",
+      "fileType" : 4,
+      "debugStyle" : 0
+    },
+    "\/assets\/img\/ugie-carnival-dance-6.jpg" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/assets\/img\/ugie-carnival-dance-6.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/assets\/img\/ugie-carnival-dance-6.jpg",
+      "initialSize" : 99017,
+      "fileType" : 4096
+    },
+    "\/assets\/sass\/bourbon\/addons\/_hide-text.scss" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/assets\/sass\/bourbon\/addons\/_hide-text.scss",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/assets\/css\/_hide-text.css",
+      "fileType" : 4,
+      "debugStyle" : 0
+    },
     "\/assets\/sass\/bourbon\/neat\/grid\/_to-deprecate.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -2055,18 +2376,6 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/assets\/sass\/bourbon\/css3\/_border-image.scss" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/assets\/sass\/bourbon\/css3\/_border-image.scss",
-      "outputStyle" : 0,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/assets\/css\/_border-image.css",
-      "fileType" : 4,
-      "debugStyle" : 0
-    },
     "\/assets\/sass\/bourbon\/css3\/_background.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -2075,19 +2384,7 @@
       "inputAbbreviatedPath" : "\/assets\/sass\/bourbon\/css3\/_background.scss",
       "outputStyle" : 0,
       "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/assets\/sass\/bourbon\/css\/_background.css",
-      "fileType" : 4,
-      "debugStyle" : 0
-    },
-    "\/assets\/sass\/bourbon\/addons\/_hide-text.scss" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/assets\/sass\/bourbon\/addons\/_hide-text.scss",
-      "outputStyle" : 0,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/assets\/sass\/bourbon\/css\/_hide-text.css",
+      "outputAbbreviatedPath" : "\/assets\/css\/_background.css",
       "fileType" : 4,
       "debugStyle" : 0
     },
@@ -2099,9 +2396,20 @@
       "inputAbbreviatedPath" : "\/assets\/sass\/bourbon\/bourbon\/addons\/_position.scss",
       "outputStyle" : 0,
       "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/assets\/sass\/bourbon\/bourbon\/css\/_position.css",
+      "outputAbbreviatedPath" : "\/assets\/css\/_position.css",
       "fileType" : 4,
       "debugStyle" : 0
+    },
+    "\/assets\/img\/ugie-carnival2-pictures9.jpg" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/assets\/img\/ugie-carnival2-pictures9.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/assets\/img\/ugie-carnival2-pictures9.jpg",
+      "initialSize" : 40779,
+      "fileType" : 4096
     },
     "\/assets\/sass\/bourbon\/functions\/_transition-property-name.scss" : {
       "ignoreWasSetByUser" : 0,
@@ -2111,7 +2419,7 @@
       "inputAbbreviatedPath" : "\/assets\/sass\/bourbon\/functions\/_transition-property-name.scss",
       "outputStyle" : 0,
       "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/assets\/sass\/bourbon\/css\/_transition-property-name.css",
+      "outputAbbreviatedPath" : "\/assets\/css\/_transition-property-name.css",
       "fileType" : 4,
       "debugStyle" : 0
     },
@@ -2123,9 +2431,20 @@
       "inputAbbreviatedPath" : "\/assets\/sass\/bourbon\/css3\/_keyframes.scss",
       "outputStyle" : 0,
       "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/assets\/sass\/bourbon\/css\/_keyframes.css",
+      "outputAbbreviatedPath" : "\/assets\/css\/_keyframes.css",
       "fileType" : 4,
       "debugStyle" : 0
+    },
+    "\/assets\/img\/ugie-carnival-dance-2.jpg" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/assets\/img\/ugie-carnival-dance-2.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/assets\/img\/ugie-carnival-dance-2.jpg",
+      "initialSize" : 106567,
+      "fileType" : 4096
     },
     "\/assets\/sass\/bourbon\/bourbon\/functions\/_modular-scale.scss" : {
       "ignoreWasSetByUser" : 0,
@@ -2135,9 +2454,31 @@
       "inputAbbreviatedPath" : "\/assets\/sass\/bourbon\/bourbon\/functions\/_modular-scale.scss",
       "outputStyle" : 0,
       "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/assets\/sass\/bourbon\/bourbon\/css\/_modular-scale.css",
+      "outputAbbreviatedPath" : "\/assets\/css\/_modular-scale.css",
       "fileType" : 4,
       "debugStyle" : 0
+    },
+    "\/assets\/img\/ugie-carnival-dance-11.jpg" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/assets\/img\/ugie-carnival-dance-11.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/assets\/img\/ugie-carnival-dance-11.jpg",
+      "initialSize" : 92170,
+      "fileType" : 4096
+    },
+    "\/assets\/img\/ugie-carnival2-pictures4.jpg" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/assets\/img\/ugie-carnival2-pictures4.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/assets\/img\/ugie-carnival2-pictures4.jpg",
+      "initialSize" : 38957,
+      "fileType" : 4096
     },
     "\/assets\/sass\/bourbon\/bourbon\/css3\/_keyframes.scss" : {
       "ignoreWasSetByUser" : 0,
@@ -2147,7 +2488,7 @@
       "inputAbbreviatedPath" : "\/assets\/sass\/bourbon\/bourbon\/css3\/_keyframes.scss",
       "outputStyle" : 0,
       "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/assets\/sass\/bourbon\/bourbon\/css\/_keyframes.css",
+      "outputAbbreviatedPath" : "\/assets\/css\/_keyframes.css",
       "fileType" : 4,
       "debugStyle" : 0
     }

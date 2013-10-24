@@ -416,6 +416,8 @@ header {
 	width: 100%;
 	float: left;
 	position: relative;
+	max-height: 496px;
+	overflow: hidden;
 }
 .slide {
 	position: relative;
@@ -455,6 +457,7 @@ header {
 	color: $white;
 	bottom: em(20);
 	right: em(20);
+	z-index: 1300;
 
 	[class*="icon-"] {
 		cursor: pointer;
