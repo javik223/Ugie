@@ -124,6 +124,12 @@ header {
 	#logo {
 		@include replace-text-with-dimensions("ugie-carnival-logo.png");
 		margin: auto auto;
+
+		a {
+			width: 100%;
+			height: 100%;
+			display: block;
+		}
 	}
 	nav {
 		@include span-columns( 9 );

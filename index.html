@@ -21,7 +21,7 @@
     <body>
         <header>
 
-             <div id="logo"><a href="">Ugie Carnival Logo</a></div>
+             <div id="logo"><a href="/">The Benin Ugie Carnival. A festivity of peace and joy</a></div>
 
             <div class="social_slogan">
                  <div class="slogan">
@@ -54,7 +54,7 @@
         <div class="container" id="home">
             <div class="slider_wrapper">
 
-            <div class="slider cycle-slideshow" id="slider" data-cycle-fx="scrollHorz"  data-cycle-timeout="4000" data-cycle-speed="2000" data-cycle-manual-speed="100" easing="easeInOutQuart">    
+            <div class="slider cycle-slideshow" id="slider" data-cycle-fx="fade"  data-cycle-timeout="4000" data-cycle-speed="2000" data-cycle-manual-speed="1000" easing="easeInOutQuart" data-cycle-next=".cycle-next" data-cycle-prev=".cycle-prev">    
                         <img src="/assets/img/ugie-women-dancing.jpg" alt="A Time of Dance &amp; Celebrations"> 
     
                         <img src="/assets/img/ugie-a-celebration-of-an-enduring-heritage.jpg" alt="A Celebration of an Enduring Heritage">  
@@ -64,7 +64,7 @@
 
 
             <div class="slider_control">
-                <span class="icon-arrow-left"></span><span class="icon-arrow-right2"></span><span class="icon-arrow-right2"></span>
+                <span class="icon-arrow-left cycle-prev"></span><span class="icon-arrow-right2 cycle-next"></span>
             </div>
             </div>
 
@@ -96,7 +96,7 @@
                         </div>
                     </div>
 
-                    <div class="row1_col2_row2 cycle-slideshow" data-cycle-fx=fadeout  data-cycle-timeout="4000" data-cycle-speed="1000" data-cycle-manual-speed="100" easing="easeInOutQuart">
+                    <div class="row1_col2_row2 cycle-slideshow" data-cycle-timeout="3500" data-cycle-speed="1000" data-cycle-manual-speed="100" easing="easeInOutQuart">
                         <img src="/assets/img/ugie-masquerades-performing.jpg" alt="Masquerade pefrorming at the ugie carnival">
 
                         <img src="/assets/img/ugie-masquerades-performing2.jpg" alt="Masquerade pefrorming at the ugie carnival">
@@ -113,7 +113,7 @@
             </div>
 
             <div class="row2">
-                <div class="row2_slides cycle-slideshow" data-cycle-fx=fadeout  data-cycle-timeout="4000" data-cycle-speed="1000" data-cycle-manual-speed="100" easing="easeInOutQuart" data-cycle-fx="scrollHorz">
+                <div class="row2_slides cycle-slideshow" data-cycle-fx="tileBlind"  data-cycle-timeout="4000" data-cycle-speed="1000" data-cycle-manual-speed="100" easing="easeInOutQuart" data-cycle-fx="scrollHorz" data-cycle-tile-count="10" data-cycle-tile-delay="100" data-cycle-tile-vertical="false">
                     <img src="/assets/img/The-Oba-and-his-wives.jpg" alt="The Oba of Benin - Omo N'Oba Uku Akpolokpolo, Oba Erediauwa, with his wifes">
 
                     <img src="/assets/img/benin-chiefs-dancing.jpg" alt="Ugie - Benin Chiefs dancing at the festivals">
@@ -254,6 +254,7 @@
         <script src="/assets/js/plugins.js"></script>
         <script src="/assets/js/easing.js"></script>
         <script src="/assets/js/jquery.cycle2.min.js"></script>
+        <script src="/assets/js/jquery.cycle2.tile.min.js"></script>
         <script src="/assets/js/main.js"></script>
 Ï
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
