@@ -1,0 +1,972 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+
+@import "compass/reset";
+@import "variables";
+@import "grid-settings";
+@import "bourbon/bourbon";
+@import "neat";
+@import "compass/utilities";
+
+@font-face {
+	font-family: 'social-icons';
+	src:url('../fonts/social-icons.eot');
+	src:url('../fonts/social-icons.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/social-icons.woff') format('woff'),
+		url('../fonts/social-icons.ttf') format('truetype'),
+		url('../fonts/social-icons.svg#social-icons') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+/* Use the following CSS code if you want to use data attributes for inserting your icons */
+[data-icon]:before {
+	font-family: 'social-icons';
+	content: attr(data-icon);
+	speak: none;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+/* Use the following CSS code if you want to have a class per icon */
+/*
+Instead of a list of all class selectors,
+you can use the generic selector below, but it's slower:
+[class*="icon-"] {
+*/
+.icon-instagram, .icon-home, .icon-play, .icon-camera, .icon-facebook, .icon-twitter, .icon-menu, .icon-arrow-left, .icon-arrow-right {
+	font-family: 'social-icons';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+}
+.icon-instagram:before {
+	content: "\e002";
+}
+.icon-home:before {
+	content: "\e003";
+}
+.icon-play:before {
+	content: "\e004";
+}
+.icon-camera:before {
+	content: "\e005";
+}
+.icon-facebook:before {
+	content: "\e006";
+}
+.icon-twitter:before {
+	content: "\e000";
+}
+.icon-menu:before {
+	content: "\e001";
+}
+.icon-arrow-left:before {
+	content: "\e008";
+}
+.icon-arrow-right:before {
+	content: "\e009";
+}
+
+
+body {
+	background-color: #000;
+	color: #fff;
+	font-family: 'Helvetica', Arial, sans-serif;
+	font-size: 16px;
+}
+h1, h2, h3, h4 {
+	font-family: $thick-font;
+	font-weight: 900;
+	@include transition (all .8s ease-in-out);
+}
+h1 {
+	font-weight: 1000;
+	font-size: 4.5em;
+	line-height: 100%;
+	display: block;
+	width: 100%;
+	margin-bottom: em(10);
+}
+h2 {
+	font-size: 3.5em;
+	margin-bottom: em(10);
+	line-height: 90%;
+
+	@include media($mobile) {
+		font-size: 3em;
+	}
+}
+h3 {
+	font-size: 1.5em;
+	margin-bottom: em(10);
+}
+.wf-loading h1, .wf-loading h2, .wf-loading h3{
+	visibility: hidden;
+}
+.wf-active h1, .wf-active h2, .wf-active h3{
+	visibility: visible;
+}
+p {
+	line-height: 1.5em;
+	padding-bottom: em(20);
+}
+strong {
+	font-weight: bold;
+}
+#container {
+	@include outer-container;
+}
+header, section {
+	padding: 0 10%;
+	@include fill-parent;
+
+	@include media($tablet) {
+		padding: 0 6%;
+	}
+}
+header {
+	padding-top: em(30);
+	background-position: right;
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding-bottom: em(30);
+	@include background-image(image-url("eko-dance-image-large.jpg"));
+	background-color: $black;
+	position: relative;
+
+	h1 {
+		line-height: 80%;
+		font-size: 5.2em;
+		margin-bottom: 0;
+
+		&:first-child {
+			margin-top: em(90);
+			font-size: em(30);
+
+			@include media($mobile) {
+				margin-top: em(15);
+			}
+		}
+
+		&:last-child {
+			margin-bottom: em(6);
+		}
+
+		@include media($mobile) {
+			font-size: 4em;
+		}
+	}
+
+	p {
+		text-transform: uppercase;
+		font-weight: bold;
+		margin-top: em(30);
+	}
+
+	@include media($tablet) {
+		@include background-image(image-url("eko-dance-image.jpg"));
+		background-size: cover;
+		background-position: bottom;
+	}
+
+	@include media($mobile) {
+		padding-top: em(10);
+	}
+}
+section {
+	padding-top: em(40);
+	padding-bottom: em(40);
+	width: 100%;
+	float: left;
+}
+nav {
+	text-transform: uppercase;
+	font-weight: bold;
+	float: left;
+	@include span-columns(12);
+	margin-top: em(10);
+	position: relative;
+
+	@include media($mobile) {
+		width: 120%;
+		position: absolute;
+		top: 0;
+		left: 0;
+	}
+
+	ul {
+		@include span-columns(3);
+
+		@include media($tablet) {
+			@include span-columns(5);
+		}
+
+		@include media($mobile) {
+			display: block;
+			width: 100%;
+			position: absolute;	
+			background-color: $black;
+			background-color: rgba(0, 0, 0, 0.9);
+			top: 0;
+			left: 0;
+			padding: 5% 20%;
+			box-sizing: border-box;
+			font-size: em(30);
+			margin-left: -10%;
+			opacity: 0;
+			@include transform(translateY(-100%));
+			@include transform-origin(center top);
+			@include transform-style(preserve-3d);
+			@include transition (all .8s ease-in-out);
+
+			&.reveal {
+				@include transform(translateY(0));
+				opacity: 1;
+			}
+		}
+	}
+
+	li {
+		border-top: 2px solid #fff;
+		margin-top: em(5);
+		padding-top: em(5);
+		float: left;
+
+		&:last-child {
+			margin-bottom: em(5);
+			padding-bottom: em(5);
+			border-bottom: 2px solid #fff;
+		}
+
+		span {
+			font-size: 1.1em;
+			line-height: 1.5em;
+		}
+	}
+
+	a {
+		text-decoration: none;
+		color: $white;
+		font-size: 0.9em;
+		line-height: 1.5em;
+
+		&.emphasis {
+			color: $brown;
+		}
+
+		&:hover {
+			color: $sun-yellow;
+		}
+	}
+	.mobile-menu {
+		display: none;
+
+		@include media($mobile) {
+			display: block;
+		}
+
+		.icon-menu {
+			font-size: 2em;
+			position: absolute;
+			z-index: 1000;
+			top: em(10);
+			right: 20%;
+			cursor: pointer;
+		}
+	}
+
+}
+button, input[type="submit"] {
+	background-color: $orange;
+	color: $white;
+	padding: em(10) em(20);
+	border: none;
+	cursor: pointer;
+	font-weight: bold;
+	font-size: 1.1em;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	border-radius: 0;
+}
+.content {
+	@include span-columns(6 of 12);
+}
+#eko-logo {
+	margin-top: em(30);
+	@include hide-text;
+	@include replace-text-with-dimensions("eko-the-musical-logo.png");
+}
+#intro {
+	background-image: image-url("lagos-city-bg.jpg");
+	padding-bottom: em(250);
+	background-repeat: no-repeat;
+	background-size: cover;
+
+	.content {
+		@include span-columns(7 of 12);
+
+		@include media($tablet) {
+			@include span-columns(9 of 12);
+		}
+
+		@include media($mobile) {
+			@include span-columns(12 of 12);
+			padding-bottom: em(120);
+		}
+	}
+}
+#eko-the-musical {
+	background-image: image-url("eko-the-musical-bg.jpg");
+	background-size: cover;
+	background-position: top right;
+	padding-top: em(300);
+
+
+	.content {
+		@include span-columns(6 0f 12);
+		float: right;
+
+		@include media($tablet) {
+			@include span-columns(8 of 12);
+			float: right;
+		}
+
+		@include media($mobile) {	
+			@include span-columns(12 of 12);
+		}
+	}
+
+	@include media($tablet) {
+		padding-top: em(240);
+	}
+	@include media($mobile) {	
+		background-position: top left;
+	}
+}
+#art-exhibition {
+	background-color: $sun-yellow;
+
+	.ae-image {
+		float: left;
+		@include span-columns(5 0f 12);
+		text-align: right;
+
+		img {
+			float: right;
+		}
+
+		@include media($tablet) {
+			@include span-columns(3 of 12);
+
+			img {
+				max-width: 140%;
+				margin-top: em(20);
+			}
+		}
+
+		@include media($mobile) {	
+			@include span-columns(12 of 12);
+			text-align: center;
+
+			img {
+				max-width: 80%;
+				float: left;
+				padding-left: 20%;
+			}
+		}
+	}
+
+	.content {
+		color: $gray;
+		@include span-columns(6 of 12);
+		float: right;
+		padding-top: em(40);
+
+		h2 {
+			color: $white;
+		}
+
+		h3 {
+			color: $red;
+		}
+		@include media($tablet) {
+			@include span-columns(8 of 12);
+			float: right;
+		}
+		@include media($mobile) {
+			@include span-columns(12 of 12);
+			float: left;
+			margin-top: em(10);
+		}
+	}
+}
+.social-icons {
+	a {
+		text-decoration: none;
+		border-radius: 50%;
+		border: 1px solid lighten($gray, 60%);
+		width: 30px;
+		height: 30px;
+		padding: em(8) em(10);
+		@include box-sizing(border-box);
+		line-height: 1em;
+		font-size: 1.4em;
+		color: lighten($gray, 60%);
+		@include transition (all .8s ease-in-out);
+
+		&:hover {
+			color: $sky-blue;
+			border-color: $sky-blue;
+		}
+	}
+}
+.em {
+	background: image-url("yellow-patterns.jpg");
+	background-size: cover;
+	color: $gray;
+	padding-top: em(70);
+	padding-bottom: em(70);
+
+	.em-caption {
+		@include span-columns(2 of 12);
+
+		@include media($tablet) {
+			@include span-columns(12 of 12);
+		}
+
+		@include media($mobile){
+			@include span-columns(12 of 12);
+		}
+	}
+
+	h2 {
+		margin-bottom: em(5);
+		@include media($tablet) {
+			@include span-columns(12 of 12);
+		}
+
+		@include media($mobile) {
+			@include span-columns(12 of 12);
+		}
+	}
+	
+	.em-video {
+		@include span-columns(7 of 12);
+
+		.video {
+			width: 100%;
+			height: 400px;
+			background-color: $black;
+		}
+
+		@include media($tablet) {
+			@include span-columns(8);
+		}
+	}
+
+	.em-content {
+		@include span-columns(3 of 12);
+		@include omega();
+
+		@include media($tablet) {
+			margin-top: em(20);
+			@include span-columns(10);
+		}
+	}
+
+	p {
+		padding-right: 20%;
+	}
+}
+#social-wall {
+	background-color: $blue-gray;
+	color: $white;
+	padding-top: em(50);
+	padding-bottom: em(50);
+	@include user-select(none);
+
+	@include media($mobile) {
+		padding-bottom: em(30);
+	}
+
+	.social-icons {
+		font-size: em(6);
+		float: right;
+
+		@include media($mobile) {
+			float: left;
+		}
+
+		@include media($tablet) {
+			float: left;
+		}
+
+		a {
+			color: $white;
+			border-color: $white;
+
+
+			@include media($mobile) {
+				font-size: em(15);
+			}
+		}
+	}
+
+	img {
+		float: left;
+		margin-right: em(10);
+
+		&:nth-child(2n) {
+			@include transform(rotate(5deg));
+		}
+	}
+
+	img {
+		@include media($mobile) {
+			max-width: 200px;
+			float: left;
+		}
+	}
+	.instagram-outer-wrapper, .twitter-outer-wrapper {
+		width: 100%;
+		position: relative;
+		float: left;
+	}
+
+	.icon-arrow-left, .icon-arrow-right {
+		cursor: pointer;
+		position: absolute;
+		top: 30%;
+		display: block;
+		font-size: 6em;
+		opacity: 0.3;
+
+		&:hover {
+			opacity: 0.7;
+			color: $sun-yellow;
+		}
+	}
+	.icon-arrow-left {
+		left: -15%;
+	}
+
+	.icon-arrow-right {
+		right: -15%;
+	}
+
+	.twitter-outer-wrapper {
+		.icon-arrow-left, .icon-arrow-right {
+			font-size: em(60);
+		}
+
+		.icon-arrow-left {
+			left: -10%;
+		}
+
+		.icon-arrow-right {
+			right: -10%;
+		}
+	}
+
+	.instagram-wrapper {
+		width: 100%;
+		float: left;
+		overflow: hidden;
+		height: 250px;
+		padding-top: em(20);
+		padding-bottom: em(30);
+		position: relative;
+
+		@include media($mobile) {
+			width: 120%;
+			margin-left: -10%;
+		}
+
+		.instagram {
+		}
+	}
+
+	.twitter-wrapper {
+		width: 100%;
+		float: left;
+		height: 80px;
+		margin-top: em(20);
+		margin-bottom: em(20);
+		overflow: hidden;
+		position: relative;
+
+		@include media($mobile) {
+			width: 120%;
+			margin-left: -10%;
+		}
+
+		.tweet {
+			background-color: $white;
+			padding: 20px;
+			color: $gray;
+			max-width: 250px;
+			margin-right: em(10);
+			float: left;
+			margin-bottom: em(20);
+			position: relative;
+			border-right: 8px solid lighten($sky-blue, 10%);
+			font-size: em(13);
+
+			p:after {
+				content: '\e000';
+				font-family: 'social-icons';
+				padding-left: em(5);
+				color: $sky-blue;
+			}
+
+			a {
+				color: $sky-blue;
+				text-decoration: none;
+
+				&:hover {
+					text-decoration: underline;
+				}
+			}
+		}
+	}
+}
+#eko-lagos-faces-wrapper {
+	position: relative;
+	float: left;
+	width: 100%;
+	height: 0;
+}
+#eko-lagos-faces {
+	width: 100%;
+	padding: 0;
+	background-color: transparent;
+	position: absolute;
+	@include transform(translateY(-50%));
+
+	@include media($mobile) {
+		@include transform(translateY(-57%));	
+	}
+
+	div {
+		float: left;
+	}
+
+	img {
+		padding: 0;
+		margin: 0;
+		border: none;
+		display: block;
+	}
+	.elf_1, .elf_2, .elf_3, .elf_4, .elf_5 {
+		-webkit-perspective: 1300px;
+		-moz-perspective: 1300px;
+		perspective: 1300px;
+
+		img {
+			opacity: 0;
+		}
+
+		img.animate {
+			-webkit-transform-style: preserve-3d;
+			-moz-transform-style: preserve-3d;
+			transform-style: preserve-3d;
+			-webkit-transform: translateZ(800px) translateY(300px) rotateX(-90deg);
+			-moz-transform: translateZ(800px) translateY(300px) rotateX(-90deg);
+			transform: translateZ(800px) translateY(300px) rotateX(-90deg);
+			-webkit-animation: fallPerspective .8s ease-in-out forwards;
+			-moz-animation: fallPerspective .8s ease-in-out forwards;
+			animation: fallPerspective .8s ease-in-out forwards;
+		}
+	}
+
+	.elf_1 {
+		width: 11.59527326%;
+
+		img {
+			&:first-child {
+				width: 100%;
+			}
+			&:nth-child(2) {
+				width: 54.1401274%;
+				float: right;
+			}
+		}
+
+		@include media($tablet) {
+			width: 0;
+			display: none;
+		}
+
+		@include media($mobile) {
+			width: 25%;
+			display: inline-block;
+		}
+	}
+
+	.elf_2 {
+		width: 21.935007%; 
+
+		img {
+			width: 100%;
+		}
+
+		@include media($tablet) {
+			width: 22%;
+		}
+
+		@include media($mobile) {
+			width: 25%;
+		}
+
+	}
+
+	.elf_3 {
+		width: 22.6735599%;
+
+		img {
+			&:first-child {
+				width: 49.5114%;
+				float: left;
+			}
+			&:nth-child(2) {
+				width: 50.4886%;
+				float: left;
+			}
+			&:last-child {
+				width: 100%;
+			}
+		}
+
+		@include media($tablet) {
+			width: 30%;
+		}
+
+		@include media($mobile) {
+			width: 50%;
+		}
+	}
+
+	.elf_4 {
+		width: 11.00443%;
+
+		img {
+			width: 100%;
+		}
+
+		@include media($tablet) {
+			width: 0;
+			display: none;
+		}
+	}
+	.elf_5 {
+		width: 32.7178%;
+
+		img {
+			float: left;
+
+			&:first-child {
+				width: 45%;
+			}
+			&:nth-child(2) {
+				width: 55%;
+			}
+			&:nth-child(3) {
+				width: 25.508%;
+			}
+			&:nth-child(4) {
+				width: 74.492%;
+			}
+		}
+
+		@include media($tablet) {
+			width: 48%;
+		}
+
+		@include media($mobile) {
+			width: 100%;
+			margin-top: -50%;
+		}
+	}
+}
+#participate {
+	background-color: $white;
+	color: lighten($gray, 30%);
+
+	h2 {
+			color: $sky-blue;
+	}
+
+	.p-details{
+		@include span-columns(6 of 12);
+
+		@include media($mobile) {
+			@include span-columns(12 of 12);
+			float: left;
+			text-align: center;
+			margin-bottom: em(30);
+		}
+	}
+
+	.p-event-details {
+		@include span-columns(5 of 12);
+		@include shift(1);
+		@include omega();
+
+		@include media($mobile) {
+			@include span-columns(10 of 12);
+			float: left;
+			text-align: center;
+			margin-top: em(30);
+		}
+
+		strong {
+			margin-bottom: em(20);
+			padding-bottom: em(20);
+			border-bottom: 1px solid $light-gray;
+			width: 100%;
+			display: block;
+		}
+
+		.p-event-details-day {
+			font-family: $light-font;
+			font-weight: 100;
+			font-size: 10em;
+			line-height: 80%;
+			padding-bottom: 0;
+			color: $sky-blue;
+			margin-left: em(-3);
+		}
+
+		.p-event-details-month {
+			font-family: $thick-font;
+			color: $sky-blue;
+			font-size: em(30);
+			padding-bottom: em(1);
+		}
+		.p-event-details-venue {
+			font-weight: bold;
+			color: $sky-blue;
+		}
+	}
+
+	.subscribe {
+		@include span-columns(10);
+		margin-top: em(30);
+		padding-top: em(30);
+		border-top: 1px solid $light-gray;
+		position: relative;
+
+		input[type="text"], input[type="email"] {
+			padding: em(10) em(20);
+			border: none;
+			font-size: 1.1em;
+			background-color: $light-gray;
+		}
+
+		@include media($tablet) {
+			text-align: center;
+		}
+	}
+}
+#sponsors-host {
+	background-color: $light-gray;
+	@include span-columns(12);
+	color: lighten($gray, 30%);
+	font-weight: bold;
+
+	.host {
+		@include span-columns(2 of 12);
+
+		@include media($tablet) {
+			@include span-columns(10 of 12);
+			text-align: center;
+			margin-bottom: em(20);
+
+			img {
+				width: 70px;
+			}
+		}
+	}
+
+	.sponsors, .media-partners {
+		@include span-columns(10 of 12);
+		@include omega();
+
+		img {
+			padding-right: em(30);
+			padding-bottom: em(20);
+		}
+
+		@include media($tablet) {
+			@include span-columns(10 of 12);
+			text-align: center;
+
+			img {
+				height: 90px;
+			}
+		}
+	}
+
+	.media-partners {
+		margin-top: em(20);
+	}
+}
+
+//Fall perspective
+@-webkit-keyframes fallPerspective {
+	100% { -webkit-transform: translateZ(0px) translateY(0px) rotateX(0deg); opacity: 1; }
+}
+
+@-moz-keyframes fallPerspective {
+	100% { -moz-transform: translateZ(0px) translateY(0px) rotateX(0deg); opacity: 1; }
+}
+
+@keyframes fallPerspective {
+	100% { transform: translateZ(0px) translateY(0px) rotateX(0deg); opacity: 1; }
+}
+
+//Mailing List feedback
+.mailing-list-feedback {
+	display: none;
+	position: absolute;
+	top: -100%;
+	background-color: $sun-yellow;
+	padding: em(20);
+	width: 300px;
+	max-width: 100%;
+	color: $gray;
+	border-radius: em(5);
+
+	.close{
+		position: absolute;
+		font-weight: bold;
+		top: -5px;
+		right: -5px;
+		background-color: $red;
+		color: $white;
+		padding: 5px 10px;
+		font-size: em(20);
+		cursor: pointer;
+		border-radius: 50%;
+		display: block;
+	}
+	&:before {
+		@include triangle(16px, $sun-yellow, down);
+		content: '';
+		position: absolute;
+		bottom: -16px;
+		left: 70%;
+
+	}
+}

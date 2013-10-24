@@ -1,0 +1,724 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+
+@import "compass/reset";
+@import "compass/utilities";
+@import "bourbon";
+@import "grid-settings";
+@import "variables";
+@import "neat";
+@import "fonts";
+
+body {
+	background: image-url("ugie-carnival-bg.jpg") no-repeat fixed;
+	background-size: cover;
+	border: none;
+	padding: none;
+	font-family: "museo-sans", $helvetica;
+	color: $gray;
+	line-height: 140%;
+}
+h1, h2, h3, h4 {
+	font-weight: 100;
+	line-height: 130%;
+}
+h1 {
+	font-size: em(60);
+	@include transition ( all 1.0s ease-in-out );
+	line-height: 100%;
+
+	.sub_head {
+		font-size: 0.6em;
+		display: block;
+		color: $gray;
+		font-style: italic;
+		line-height: 100%;
+	}
+}
+h2 {
+	font-size: em(30);
+
+	&.small {
+		font-size: em(20);
+	}
+}
+h3 {
+	font-weight: normal;
+	font-size: em(25);
+	line-height: 120%;
+	font-style: italic;
+}
+p {
+	margin-bottom: em(20);
+}
+strong {
+	font-weight: 600;
+}
+.grid_1 {
+	@include span-columns(1);
+}
+.grid_2 {
+	@include span-columns( 2 );
+}
+.grid_3 {
+	@include span-columns( 3 );
+}
+.grid_4 {
+	@include span-columns( 4 );
+}
+.grid_5 {
+	@include span-columns( 5 );
+}
+.grid_6 {
+	@include span-columns( 6 );
+}
+.grid_7 {
+	@include span-columns( 7 );
+}
+.grid_8 {
+	@include span-columns( 8 );
+}
+.grid_9 {
+	@include span-columns( 9 );
+}
+.grid_10 {
+	@include span-columns( 10 );
+}
+.grid_11 {
+	@include span-columns( 11 );
+}
+.grid_12 {
+	@include span-columns( 12 );
+}
+.grid_4 {
+	@include span-columns(4);
+}
+.omega {
+	@include omega( );
+}
+.no-pad {
+	@include pad(0);
+}
+.rd {
+	@include reset-display;
+}
+.equal_2 {
+	width: 50%;
+	float: left;
+}
+.equal_3 {
+	width: 33.33333333%;
+	float: left;
+	display: table-cell;
+}
+blockquote {
+	margin-top: em(20);
+	font-size: em(30);
+	line-height: 120%;
+	font-weight: 100;
+	float: left;
+}
+header {
+	#logo {
+		@include replace-text-with-dimensions("ugie-carnival-logo.png");
+		margin: auto auto;
+	}
+	nav {
+		@include span-columns( 9 );
+		margin-left: 14%;
+		text-align: center;
+		margin-top: em(20);
+		margin-bottom: em(20);
+
+		@include media( $tablet ){
+			@include span-columns( 12 );
+			@include shift( 0 );
+		}
+
+		li {
+			float: left;
+			padding-left: em(20);
+			height: em(30);
+			margin-left: em(20);
+
+
+			a {
+				text-decoration: none;
+				text-transform: uppercase;
+				color: $gray;
+				font-weight: bold;
+				margin: auto auto;
+				display: block;
+				font-weight: 700;
+			}
+		}
+	}
+	.social_slogan {
+		@include span-columns( 3 );
+		@include omega( );
+		color: $gray;
+		position: absolute;
+		top: em(50);
+		right: em(60);
+
+		.slogan {
+			color: $red;
+		}
+	}
+}
+.container, header{
+	@include outer-container;
+	background-color: $white;
+}
+#history {
+	padding-bottom: em(60);
+
+	img {
+		width: 100%;
+		float: left;
+	}
+
+	.content {
+		@include span-columns( 12 );
+		margin-top: em(40);
+
+		.text {
+			@include span-columns( 6 of 12 );
+			@include shift( 1 );
+
+			p {
+				padding-right: em(50);
+			}
+		}
+
+		.sidebar {
+			@include span-columns( 5 of 12 );
+			@include omega( );
+
+			blockquote {
+				padding-right: em(40);
+				color: lighten($gray, 30%);
+			}
+		}
+	}
+
+}
+#history_main {
+	@include span-columns( 12 );
+	float: left;
+	position: relative;
+
+	.overlay {
+		position: absolute;
+		bottom: 5%;
+		padding-left: 5%;
+		color: $white;
+
+		h2 {
+			font-style: italic;
+		}
+	}
+}
+#media, #event_lineups {
+	padding-bottom: em(90);
+	position: relative;
+
+	.media_head {
+		padding-left: em(20);
+		color: lighten($gray, 30%);
+	}
+
+	img {
+		float: left;
+		width: 100%;
+	}
+
+	div {
+		position: relative;
+		background-color: $greenish-gold;
+	}
+	
+	.overlay {
+		position: relative;
+		color: $white;
+		font-size: em(25);
+		bottom: 0;
+		padding-bottom: em(20);
+		padding-left: em(20);
+		width: 100%;
+		@include box-sizing( "border-box" );
+		background-color: $greenish-gold;
+		z-index: 10000;
+		overflow: hidden;
+
+		&:before {
+			content: '';
+			width: 100%;
+			height: 100%;
+			background-color: $sun-yellow;
+			position: absolute;
+			margin-left: em(-20);
+			z-index: -1;
+			@include transition ( all 0.5s ease-in-out );
+			@include transform( translateX(100%) );
+			opacity: 0.9;
+		}
+
+		h2 {
+			padding-top: em(10);
+		}
+
+		&:hover {
+			&:before {
+				background-color: $red;
+				@include transform( translateX(0) );
+			}
+		}
+	}
+	img {
+		float: left;
+	}
+	.media-art {
+		.overlay {
+			background-color: $sun-yellow;
+		}
+	}
+	.m-festivals {
+		.overlay {
+			background-color: $sun-yellow;
+		}
+	}
+	.m-carnival {
+		.overlay {
+			background-color: darken($greenish-gold, 5%);
+		}
+	}
+}
+#event_lineups {
+	.event_lineup {
+		width: 100%;
+		float: left;
+		color: $white;
+		font-size: em(12);
+		padding: em(14);
+		border-bottom: 2px solid lighten($greenish-gold, 40%);
+		display: table;
+
+		&:hover {
+			background-color: darken($greenish_gold, 5%);
+			border-bottom: 2px solid lighten($greenish-gold, 5%);
+
+		}
+
+		img {
+			width: 50%;
+			float: left;
+			border-radius: em(9);
+			@include inline-block;
+		}
+
+		h1 {
+			width: 50%;
+			@include inline-block;
+			vertical-align: middle;
+			padding-right: em(40);
+			padding-top: em(20);
+			padding-left: em(40);
+		}
+	}
+	.event_lineups_overlay {
+		width: 100%;
+	    background-color: $white;
+	    min-width: 400px;
+	    position: absolute;
+	    top: em(66);
+	    left: 0;
+	    z-index: 3000;
+	    padding: em(60) em(30) em(60);
+	   	@include transform( translateY(-3000px) );
+	    @include transition ( all 2.0s ease-in-out );
+	    border-bottom: 40px solid $greenish-gold;
+	    border-top: 40px solid $greenish-gold;
+
+
+		&.elo_show {
+			@include transform( translateY(0) );
+		}
+
+	    .close {
+	    	padding: em(10);
+	    	padding-top: em(8);
+	    	font-size: em(30);
+	    	background-color: $red;
+	    	display: inline;
+	    	position: absolute;
+	    	left: 50%;
+	    	top: em(-30);
+	    	color: $white;
+	    	@include user-select( none );
+	    	border-radius: 50%;	
+	    	width: 60px;
+	    	height: 60px;
+	    	text-align: center;    
+			cursor: pointer;
+			font-weight: 100;
+			border: 2px solid $red;
+			@include transition ( all 0.4s ease-in-out );
+			@include box-shadow( 0 0 5px 8px rgba(200,0,0,0.1));
+
+			&:hover {
+				border: 2px solid $red;
+				background-color: $white;
+				color: $red;
+				@include box-shadow( 0 0 5px 8px rgba(255,0,0,0.1));
+
+			}
+	    }
+
+	    img {
+	    	width: 55%;
+	    	padding-right: 5%;
+	    	@include inline-block;
+	    }
+
+	    .event_lineups_overlay_content {
+	    	width: 40%;
+	    	float: left;
+	    	@include inline-block;
+	    	background-color: transparent;
+	    }
+
+	    h1 {
+	    	font-size: em(50);
+	    	color: $red;
+	    	margin-bottom: em(20);
+	    }
+	}
+}
+#el_the_festivals, #el_the_carnival, #el_art_exhibition, #el_theatre_presentations, #el_beauty_pageant, #el_award, #el_diaspora{
+	&.event_lineup {
+		cursor: pointer;
+	}
+}
+#home {
+	background-color: transparent;
+}
+.slider_wrapper {
+	width: 100%;
+	float: left;
+	overflow: hidden;
+	position: relative;
+	max-height: 496px;
+}
+.slider {
+	width: 100%;
+	float: left;
+	position: relative;
+}
+.slide {
+	position: relative;
+	color: $white;
+	font-size: em(28);
+	font-style: italic;
+	float: left;
+	width: 100%;
+
+	h2 {
+		line-height: 90%;
+
+		&:first-child {
+			margin-left: -10%;
+		}
+		&:last-child {
+			margin-left: -30%;
+		}
+	}
+
+	img {
+		width: 100%;
+		float: left;
+	}
+
+	.slide_text {
+		width: 20%;
+		float: right;
+		position: absolute;
+		bottom: 25%;
+		right: 5%;
+	}
+}
+.slider_control {
+	position: absolute;
+	font-size: em(40);
+	color: $white;
+	bottom: em(20);
+	right: em(20);
+
+	[class*="icon-"] {
+		cursor: pointer;
+
+		&:hover {
+			color :$sun-yellow;
+		}
+	}
+}
+.row1, .row2, .row3, .row4 {
+	img {
+		width: 100%;
+		float: left;
+	}
+}
+.row1 {
+	@include span-columns( 12 );
+	display: table-row;
+	background-color: $white;
+
+	.row1_col1 {
+		width: 50%;
+		padding: 5% 10%;
+		float: left;
+		display: table-column;
+
+		h2 {
+			font-size: em(50);
+			font-style: italic;
+			color: lighten($gray, 30%);
+		}
+	}
+
+	.row1_col2 {
+		width: 50%;
+		float: left;
+		display: table-cell;
+	}
+	.row1_col2_row1 {
+		width: 100%;
+		float: left;
+		display: table-cell;
+		height: 290px;
+		overflow: hidden;
+	}
+	.row1_col2_row1_col1 {
+		display: table-column;
+		width: 50%;
+		float: left;
+
+		img {
+			wdith: 100%;
+		}
+	}
+	.row1_col2_row1_col2 {
+		width: 50%;
+		display: table-column;
+		float: left;
+		background-color: red;
+		color: $white;
+		vertical-align: center;
+		text-align: center;
+		padding: em(95);
+	}
+	.row1_col2_row2 {
+		width: 100%;
+		float: left;
+		display: table-cell;
+		overflow: hidden;
+	}
+}
+.row2 {
+	@include span-columns( 12 );
+	float: left;
+	position: relative;
+
+	.row2_overlay {
+		position: absolute;
+		bottom: 0;
+		left: 0;
+		background-color: $white;
+		color: $red;
+		padding: 2% 5%;
+		z-index: 10000;
+	}
+}
+.row3 {
+	.row3_col1 {
+		width: 70%;
+		float: left;
+		position: relative;
+	}
+
+	.row3_col1_row2 {
+		width: 100%;
+		float: left;
+	}
+	.row3_col1_row2_col1, .row3_col1_row2_col3 {
+		width: 30%;
+		float: left;
+		background-color: $red;
+		color: $white;
+		padding: em(40);
+		height: em(250);
+	}
+	.row3_col1_row2_col2 {
+		width: 40%;
+		float: left;
+		overflow: hidden;
+	}
+	.row3_col1_row2_col1 {
+		background-color: $green;
+	}
+	.row3_col1_row2_col3 {
+		background-color: darken($sun-yellow, 5%);
+		color: $brown;
+	}
+	.row3_col2 {
+		width: 30%;
+		float: left;
+		margin-top: em(240);
+	}
+	a {
+		text-decoration: none;
+	}
+	.social {
+		width: 60%;
+		float: left;
+		position: absolute;
+		bottom: 0%;
+		left: 70%;
+
+		.twitter_box {
+			background-color: $sky-blue;
+			color: $white;
+			font-size: em(25);
+			padding: em(20);
+			line-height: 120%;
+			width: 50%;
+			font-weight: 100;
+			float: left;
+		}
+
+		.icon-twitter {
+			width: 70px;
+			height: 70px;
+			float: left;
+			background-color: $sky-blue;
+			margin-right: em(10);
+			margin-bottom: em(10);
+
+			&:before {
+				font-size: em(40);
+				padding: em(5);
+				display: block;
+				color: $white;
+			}
+		}
+
+		.icon-facebook {
+			width: 70px;
+			height: 70px;
+			float: left;
+			background-color: $white;
+			margin-right: em(30);
+			margin-bottom: em(10);
+
+			&:before {
+				font-size: em(40);
+				padding: em(5);
+				display: block;
+				color: $sky-blue;
+			}
+		}
+
+		.icon-thumbs-up{
+			width: 180px;
+			height: 70px;
+			float: left;
+			background-color: $white;
+			font-size: em(40);
+			color: $sky-blue;
+			padding: em(5);
+
+			&:before {
+				padding: em(5);
+			}
+		}
+		.icon-instagram {
+			width: 70px;
+			height: 70px;
+			background-color: $sky-blue;
+			float: left;
+			margin-top: em(10);
+
+			&:before {
+				font-size: em(40);
+				padding: em(5);
+				display: block;
+				color: $white;
+			}
+		}
+	}
+}
+.row4 {
+	float: left;
+	margin-top: em(50);
+	@include span-columns( 12 );
+
+	.row4_col1 {
+		@include span-columns( 6 of 12 );
+		color: $white;
+		font-weight: normal;
+		font-size: em(20);
+
+		h2, h1 {
+			line-height: 90%;
+		}
+	}
+
+	.row4_col2 {
+		@include span-columns( 6 of 12 );
+		@include omega( );
+		float: left;
+		background-color: $white;
+		padding: 3%;
+
+		p {
+			color: $red;
+			font-size: em(25);
+			font-style: italic;
+		}
+
+		input {
+			font-size: em(20);
+			color: $gray;
+			background-color: lighten($gray, 40%);
+			padding: em(10) em(15);
+			border: none;
+			float: left;
+			font-weight: 100;
+			width: 360px;
+		}
+		input[type="submit"] {
+			background-color: $sky-blue;
+			color: $white;
+			width: auto;
+		}
+	}
+}
+footer {
+	width: 100%;
+	color: $gray;
+	margin-top: em(40);
+
+	.container {
+		padding-top: em(50);
+		padding-bottom: em(50);
+	}
+	img {
+		padding-right: em(20);
+	}
+
+	#sponsors {
+		@include shift( 2 );
+	}
+}
